@@ -122,8 +122,7 @@ class OllamaInference():
             paths = [record["walk"] for record in result]
         context = []
         for path in paths:
-            # Format the path as a string
-            # Format as: entity1 -[relation1]-> entity2 -[relation2]-> entity3 ...
+            # entity1 -[relation1]-> entity2 -[relation2]-> entity3 ...
             formatted_path = ""
             for i in range(len(path)):
                 if i % 2 == 0:
@@ -141,8 +140,6 @@ class OllamaInference():
         return response, context
     
     def format_context(self, context):
-        # Format the context as bullet points
-        # print(context)
         return "\n".join([f"- {triple[0][0]} {triple[0][1]} {triple[0][2]} (Fonte: {triple[0][3]})" for triple in context])
     
     def RAG(self, prompt, strategy='default', return_context=False):

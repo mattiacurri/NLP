@@ -5,7 +5,6 @@ from tqdm import tqdm
 
 def scrape():
     print(" ==== Scraping Empulia Normativa ==== ")
-    # url = "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/Guide%20pratiche.aspx"
     url = "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/Normativa.aspx"
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')

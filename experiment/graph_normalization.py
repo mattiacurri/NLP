@@ -1,57 +1,4 @@
-"""
-Questa pipeline è progettata per normalizzare le entità di un Knowledge Graph in un sistema RAG che viene aggiornato online. Utilizza un approccio a due fasi: una fase di inizializzazione offline per costruire la base di conoscenza iniziale e una fase di aggiornamento online per gestire in modo efficiente i nuovi dati.
-Descrizione della Pipeline di Clustering Adattivo
-
-L'obiettivo è creare e mantenere un sistema che raggruppi nodi semanticamente simili (es. "auto", "automobile", "vettura") sotto un unico rappresentante canonico (es. "auto").
-Fase 1: Inizializzazione (Offline)
-
-Questa fase viene eseguita una sola volta su un corpus di dati iniziale per creare le fondamenta del nostro sistema di normalizzazione.
-
-    Estrazione del Vocabolario: Dal corpus iniziale, estrai tutti i nodi unici del Knowledge Graph per formare un vocabolario.
-
-    Generazione degli Embeddings: Per ogni parola del vocabolario, calcola il suo vettore di embedding usando un modello pre-addestrato (es. FastText o Word2Vec).
-
-    Clustering Iniziale (HDBSCAN/DBSCAN): Esegui un algoritmo di clustering basato sulla densità (HDBSCAN è spesso preferibile perché non richiede eps) su tutti gli embeddings. Questo raggrupperà le parole simili e identificherà le parole isolate (rumore).
-
-    Creazione dello Stato Iniziale: Sulla base dei risultati del clustering, costruisci e salva gli "artefatti" del sistema:
-
-        centroids: Un dizionario che mappa l'ID di ogni cluster al suo vettore centroide (la media degli embeddings dei suoi membri).
-
-        representatives: Un dizionario che mappa l'ID di ogni cluster alla sua parola rappresentativa (es. la più vicina al centroide).
-
-        normalization_map: Una mappa completa che associa ogni parola del vocabolario iniziale al suo rappresentante canonico. Le parole "rumore" mappano a se stesse.
-
-        noise_embeddings e noise_words: Due liste sincronizzate contenenti gli embeddings e le parole classificate come rumore. Queste saranno la base per scoprire nuovi cluster online.
-
-Fase 2: Aggiornamento (Online)
-
-Questa è la funzione che viene chiamata ogni volta che una nuova parola (nodo) viene estratta da un nuovo documento.
-
-    Input: Una nuova parola new_word.
-
-    Controllo Cache: Verifica se new_word è già presente in normalization_map. Se sì, restituisce immediatamente la sua forma canonica.
-
-    Generazione Embedding: Calcola l'embedding per new_word. Se la parola non è nel modello, viene considerata rumore e mappata a se stessa.
-
-    Matching con Cluster Esistenti: Calcola la similarità (coseno) tra l'embedding di new_word e tutti i centroidi dei cluster esistenti. Se la similarità con il cluster più vicino supera una threshold_cluster, la parola viene assegnata a quel cluster, la normalization_map viene aggiornata e il processo termina.
-
-    Matching con Parole Isolate (Rumore): Se la parola non corrisponde a nessun cluster, si cerca un "partner" tra le parole precedentemente etichettate come rumore. Si calcola la similarità con tutte le parole in noise_words.
-
-    Creazione di un Nuovo Cluster: Se la similarità con la parola rumore più vicina supera una threshold_new_cluster (tipicamente più restrittiva), viene creato un nuovo cluster:
-
-        Si sceglie un rappresentante per la nuova coppia.
-
-        Si calcola il nuovo centroide.
-
-        I nuovi dati vengono aggiunti a centroids e representatives.
-
-        La normalization_map viene aggiornata per entrambe le parole.
-
-        La parola "partner" viene rimossa dalla lista del rumore.
-
-    Classificazione come Nuovo Rumore: Se la parola non trova corrispondenze né con i cluster né con altre parole isolate, viene aggiunta alle liste noise_embeddings e noise_words per essere considerata in futuri confronti.
-"""
-
+import json
 
 from json import load
 import numpy as np
@@ -61,7 +8,6 @@ from sentence_transformers import SentenceTransformer, util
 from sklearn.cluster import DBSCAN
 
 from pydantic import BaseModel, Field
-
 
 class Entities(BaseModel):
     entities: list[str] = Field(
@@ -131,14 +77,14 @@ class Normalizer:
             cluster_words = [valid_words[i] for i in indices]
             cluster_embeddings = embeddings[indices]
             print(label, cluster_words, cluster_embeddings.shape)
-            if label == -1: # Rumore
+            if label == -1: # Noise
                 self.noise_words.extend(cluster_words)
                 self.noise_embeddings = cluster_embeddings
                 for word in cluster_words:
                     self.normalization_map[word] = word
-            else: # Cluster validi
+            else: # Valid Cluster
                 centroid = np.mean(cluster_embeddings, axis=0)
-                # Scegli il rappresentante (parola più vicina al centroide)
+                # Word near the centroid
                 similarities = util.cos_sim(cluster_embeddings, centroid.reshape(1, -1))
                 representative = cluster_words[np.argmax(similarities)]
 
@@ -149,8 +95,8 @@ class Normalizer:
                 for word in cluster_words:
                     self.normalization_map[word] = representative
         
-        print("Inizializzazione completata.")
-        print(f"Trovati {len(self.centroids)} cluster e {len(self.noise_words)} parole isolate.")
+        print("Initialization completed.")
+        print(f"Found {len(self.centroids)} clusters and {len(self.noise_words)} noise words.")
 
     def normalize(self, new_word):
         """
@@ -294,8 +240,6 @@ for triple in graph_dict['triples']:
 graph_dict['triples'] = unique_triples
 
 print(f"Total triples after normalization: {len(graph_dict['triples'])}")
-
-import json
 
 with open('docs_kg/aggregated_knowledge_graph_normalized.json', 'w', encoding='utf-8') as f:
     json.dump(graph_dict, f, ensure_ascii=False, indent=4)

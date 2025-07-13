@@ -155,18 +155,19 @@ def verify_statements(model, statements: List[str], context: str, analysis=False
         prompt = prompt.format(context=format_context(context), answer=answer, statements=formatted_statements)
     
     # print length in token of the prompt
-    response = model.models.generate_content(model="gemini-2.5-flash", 
-                                             contents=prompt,
-                                             config={
-                                                 "thinking_config": {
-                                                    "thinking_budget": 0
-                                                },
-                                                 "response_mime_type": "application/json",
-                                                    "response_schema": FaithfulnessMetric,
-                                                    "temperature": 0.0,
-                                                    "system_instruction": VERIFICATION_SYSTEM_INSTRUCTION if not analysis else ANALYSIS_VERIFICATION_SYSTEM_INSTRUCTION,
-                                                }
-                                             )
+    response = model.models.generate_content(
+        model="gemini-2.5-flash", 
+        contents=prompt,
+        config={
+            "thinking_config": {
+            "thinking_budget": 0
+        },
+            "response_mime_type": "application/json",
+            "response_schema": FaithfulnessMetric,
+            "temperature": 0.0,
+            "system_instruction": VERIFICATION_SYSTEM_INSTRUCTION if not analysis else ANALYSIS_VERIFICATION_SYSTEM_INSTRUCTION,
+        }
+    )
     total_tokens = model.models.count_tokens(
         model="gemini-2.5-flash", contents=response.text
     )
@@ -178,7 +179,6 @@ def verify_statements(model, statements: List[str], context: str, analysis=False
         import os
         if not os.path.exists("Problematic_Responses"):
             os.makedirs("Problematic_Responses")
-        # if Problematic_Responses/responses.json does not exist, create it
         if not os.path.exists("Problematic_Responses/responses.json"):
             with open("Problematic_Responses/responses.json", "w") as f:
                 f.write("")
@@ -261,7 +261,7 @@ def answer_accuracy(question, ground_truth: str, generated_answer: str) -> Tuple
               f"Risposta Generata: {ground_truth}\n"
               f"Valutazione: ")
     
-    # Giuria di LLM
+    # LLM Jury
 
     response1 = model1.models.generate_content(
         model="gemini-2.5-flash",

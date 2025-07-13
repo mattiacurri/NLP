@@ -270,9 +270,9 @@ def create_dataset():
             ]
         })
     time.sleep(50)
-#    3. Domande Difficili (Aggregazione)
+    # 3. Hard Questions (Aggregation)
     samples = sampler.sample_hubs()
-    for i, sample in enumerate(tqdm(samples, desc="Difficili")):
+    for i, sample in enumerate(tqdm(samples, desc="Hard")):
         contexts_for_prompt = [f"{sample['hub_name']} {c['relation']} {c['connected_node_name']} - {c['source']}" for c in sample['connections']]
         contexts_str = "\n- ".join(contexts_for_prompt)
         
@@ -287,14 +287,6 @@ def create_dataset():
             time.sleep(50)
         qas = generate_qa_from_prompt(HUBS_SYSTEM_PROMPT, prompt, response_schema=HubEntry)
         
-        """
-        subquestions : ["", ""]
-        subanswers : {"answer": "", "analysis": ""}, {"answer": "", "analysis": ""}]
-        subtriples: [["", ""], ["", ""]]
-        general_question: ""
-        general_answer: {"answer": "", "analysis": ""}
-        """
-
         j = json.loads(qas)
         # Raccogli tutti gli ID dei nodi collegati come ground truth per il retriever
         for i, subquestion in enumerate(j["subquestions"]):
@@ -308,7 +300,7 @@ def create_dataset():
             
     time.sleep(50)
 
-    # 4. Domande "2_hop"
+    # 4. Two-hop Questions
     samples = sampler.sample_two_hops()
     for i, sample in enumerate(tqdm(samples, desc="2_hop")):
         contexts_for_prompt = [
@@ -336,7 +328,7 @@ def create_dataset():
         })
 
     # 5. Domande "Totalmente Fuori Contesto"
-    print("\nGenerando domande TOTALMENTE FUORI CONTESTO...")
+    print("\nGenerating out of domain questions...")
     far_ood_questions = [
         "Qual è la ricetta per la pizza margherita?",
         "Spiegami le regole del fuorigioco nel calcio.",

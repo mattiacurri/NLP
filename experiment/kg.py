@@ -13,8 +13,6 @@ from dotenv import load_dotenv
 
 from pydantic import BaseModel
 
-
-
 from rateguard import rate_limit
 
 class Triple(BaseModel):
@@ -50,9 +48,6 @@ def generate_knowledge_graph(document: str) -> dict:
     )
     return response.text
 
-if not os.path.exists("docs_kg_reconciled"):
-    os.makedirs("docs_kg_reconciled")
-  
 if not os.path.exists("docs_kg"):
     os.makedirs("docs_kg")
     

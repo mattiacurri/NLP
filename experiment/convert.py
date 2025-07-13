@@ -6,28 +6,21 @@ from docling.document_converter import PdfFormatOption
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.datamodel.base_models import InputFormat
 
-
-import pymupdf
-
-# Docling parameters
-pipeline_options = PdfPipelineOptions()
-# pipeline_options.do_formula_enrichment = True
-# pipeline_options.generate_picture_images = False
-# pipeline_options.images_scale = 2
-# pipeline_options.do_picture_classification = False
-# pipeline_options.do_picture_description = False
-# pipeline_options.picture_description_options = smolvlm_picture_description
-
-converter = DocumentConverter(format_options={
-    InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
-})
-
 from docling_core.transforms.chunker.hierarchical_chunker import (
     ChunkingDocSerializer,
     ChunkingSerializerProvider,
 )
 from docling_core.transforms.serializer.markdown import MarkdownTableSerializer
 
+import glob
+import re
+
+# Docling parameters
+pipeline_options = PdfPipelineOptions()
+
+converter = DocumentConverter(format_options={
+    InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
+})
 
 class MDTableSerializerProvider(ChunkingSerializerProvider):
     def get_serializer(self, doc):
@@ -74,9 +67,7 @@ def convert(source, out):
         with open(f"{out}_{i}.md", "a", encoding="utf-8") as f:
             f.write(ser_txt + "\n\n")
 
-import glob
-import re
-import os
+
 
 def compact_chunk(source, out, group_size=3):
     """
@@ -121,20 +112,3 @@ def compact_chunk(source, out, group_size=3):
             out_file = os.path.join(out_dir, f"{base}_compacted_{idx}.md")
             with open(out_file, "w", encoding="utf-8") as f:
                 f.write(compacted_text)
-    
-
-def convert_pymupdf(source, out):
-    doc = pymupdf.open(source)  # open a document
-    with open(out, "wb") as fout:  # create a text output
-        for page in doc:  # iterate the document pages
-            text = page.get_text().encode("utf8")  # get plain text (is in UTF-8)
-            fout.write(text)  # write text of page
-            
-            
-def convert_pymupdfllm(source, out):
-    import pymupdf4llm
-
-    md_text = pymupdf4llm.to_markdown(source)
-    with open(out, "w", encoding="utf-8") as f:
-        f.write(md_text)
-        
