@@ -3,13 +3,12 @@ import json
 import pandas as pd
 from neo4j import GraphDatabase
 from tqdm import tqdm
-import random
 
 from typing import List
 
 from google.genai import Client
 
-from prompts import EASY_SYSTEM_PROMPT, MID_SYSTEM_PROMPT, HARD_SYSTEM_PROMPT, NEAR_OOD_SYSTEM_PROMPT, HUBS_SYSTEM_PROMPT, ISOLATED_SYSTEM_PROMPT
+from prompts import HUBS_SYSTEM_PROMPT, ISOLATED_SYSTEM_PROMPT
 
 from pydantic import BaseModel
 import time

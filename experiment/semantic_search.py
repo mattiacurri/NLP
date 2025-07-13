@@ -3,7 +3,6 @@ import json
 import faiss
 from sentence_transformers import SentenceTransformer
 
-from tqdm import tqdm
 
 class Search:
     def __init__(self, model_name='Qwen/Qwen3-Embedding-0.6B', index_file=None, triples_file=None, entities_file=None, entities_index=None):

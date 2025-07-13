@@ -62,8 +62,6 @@ from sklearn.cluster import DBSCAN
 
 from pydantic import BaseModel, Field
 
-from google import genai
-from google.genai import types
 
 class Entities(BaseModel):
     entities: list[str] = Field(

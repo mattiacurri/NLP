@@ -1,11 +1,10 @@
 from tqdm import tqdm
 from inference import OllamaInference
 
-from metrics import context_faithfulness, context_precision, context_recall, answer_semantic_similarity, average_semantic_similarity, answer_accuracy
+from metrics import context_faithfulness, context_precision, context_recall, answer_accuracy
 
 import os
 import json
-import gc
 import time
 
 class RetrievalEval:

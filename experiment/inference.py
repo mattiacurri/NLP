@@ -1,6 +1,5 @@
 import ollama 
 from google import genai
-from google.genai import types
 
 from pydantic import BaseModel, Field
 
@@ -11,7 +10,7 @@ import os
 
 import json
 
-from prompts import RAG_PROMPT, rag_prompt, EXTRACTION_SYSTEM_PROMPT, ENTITIES_RELATIONS_EXTRACTION_SYSTEM_PROMPT, COMBINE_ANSWERS_PROMPT, DECOMPOSE_PROMPT, ENTITIES_EXTRACTION_SYSTEM_PROMPT
+from prompts import RAG_PROMPT, rag_prompt, ENTITIES_RELATIONS_EXTRACTION_SYSTEM_PROMPT, COMBINE_ANSWERS_PROMPT, DECOMPOSE_PROMPT, ENTITIES_EXTRACTION_SYSTEM_PROMPT
 
 load_dotenv()
 

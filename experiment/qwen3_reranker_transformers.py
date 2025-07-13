@@ -1,28 +1,10 @@
 import logging
-from typing import Dict, Optional, List
-import os
 
-import json
-import logging
-import os
-import queue
-import sys
 
-from collections import defaultdict
-from contextlib import nullcontext
-from dataclasses import dataclass, field
-from pathlib import Path
-from tqdm import tqdm
-from typing import Union, List, Tuple, Any
 
-import numpy as np
 import torch
-from torch import Tensor, nn
-import torch.nn.functional as F
-from torch.utils.data._utils.worker import ManagerWatchdog
 
-from tqdm import tqdm
-from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForSequenceClassification, AutoModel, is_torch_npu_available
+from transformers import AutoTokenizer, AutoModelForCausalLM
 logger = logging.getLogger(__name__)
 
 

@@ -2,11 +2,10 @@ from docling.document_converter import DocumentConverter
 
 import os
 
-from docling.document_converter import DocumentConverter, PdfFormatOption
+from docling.document_converter import PdfFormatOption
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.datamodel.base_models import InputFormat
 
-from docling.datamodel.pipeline_options import smolvlm_picture_description
 
 import pymupdf
 
