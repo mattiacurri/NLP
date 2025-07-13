@@ -5,22 +5,31 @@ from tqdm import tqdm
 
 def scrape():
     print(" ==== Scraping Empulia Normativa ==== ")
+    # url = "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/Guide%20pratiche.aspx"
     url = "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/Normativa.aspx"
     response = requests.get(url)
-    soup = BeautifulSoup(response.content, "html.parser")
+    soup = BeautifulSoup(response.content, 'html.parser')
+    
+    # Step 1. Find all PDF links
+    links = soup.find_all('a', href=True)
+    pdf_links = [link['href'] for link in links if link['href'].endswith('.pdf')]
+    print(f"Found {len(pdf_links)} PDF links.")
 
-    links = []
-    div = soup.find("div", class_="ms-rte-layoutszone-inner")
-    if div:
-        for a in tqdm(div.find_all("a", href=True), desc="Processing links", unit="link", position=0, leave=True):
-            links.append(a["href"])
-            response = requests.get("http://www.empulia.it" + a["href"])
-            if response.status_code == 200:
-                filename = a["href"].split("/")[-1]
-                if os.path.exists(f"docs/{filename}"):
-                    print(f" ==== Skipping {filename}, already exists. ====")
-                    continue
-                with open(f"docs/{filename}", "wb") as f:
-                    f.write(response.content)
-            else:
-                print(f"ERROR: Failed to download {a['href']}")
+    # Step 2. Download each PDF
+    os.makedirs("docs", exist_ok=True)
+    
+    for pdf_link in tqdm(pdf_links, desc="Downloading PDFs", unit="file", position=0, leave=True):
+        pdf_url = "http://www.empulia.it" + pdf_link
+
+        if os.path.exists(os.path.join("docs", os.path.basename(pdf_url))):
+            print(f" ==== Skipping {pdf_url}, already downloaded. ====")
+            continue
+        
+        try:
+            pdf_response = requests.get(pdf_url)
+            with open(os.path.join("docs", os.path.basename(pdf_url)), 'wb') as f:
+                f.write(pdf_response.content)
+        except Exception as e:
+            print(f"Failed to download {pdf_url}: {e}")
+    
+scrape()

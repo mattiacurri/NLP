@@ -1,0 +1,22 @@
+{
+    "1_hop": {
+        "context_precision": 0.12595419847328243,
+        "context_recall": 0.25
+    },
+    "2_hop": {
+        "context_precision": 0.005773693273693274,
+        "context_recall": 0.25
+    },
+    "isolated": {
+        "context_precision": 0.20422165345011245,
+        "context_recall": 0.625
+    },
+    "hubs": {
+        "context_precision": 0.20016479305361692,
+        "context_recall": 0.06271620026388873
+    },
+    "totalmente_fuori_contesto": {
+        "context_precision": 0.5,
+        "context_recall": 0.5
+    }
+}

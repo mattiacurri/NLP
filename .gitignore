@@ -2,3 +2,20 @@
 .vscode
 docs
 docs_md
+docs_md_cleaned
+docs_md_chunks
+docs_kg
+docs_kg_old
+docs_manuale
+cc.it.300.bin/
+*.pyc
+
+results_bck
+results_bck_2
+old_datasets
+gold_embedding - Copia
+
+gold_embedding
+clustering_state
+
+results/old_data

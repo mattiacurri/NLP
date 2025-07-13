@@ -1,0 +1,1777 @@
+{
+    "1_hop": {
+        "avg_context_faithfulness": 0.2875,
+        "avg_analysis_faithfulness": 0.625,
+        "avg_answer_accuracy": 0.25,
+        "context_faithfulness_explanations": [
+            [
+                [
+                    "Il principio di precedenza che si applica alla formulazione delle specifiche tecniche rispetto alle regole tecniche nazionali obbligatorie, secondo il D.Lgs. 50/2016, Art. 68, comma 5, è il principio di conformità alle norme armonizzate e alle regole tecniche dell'Unione Europea.",
+                    "NO: Il contesto afferma che le specifiche tecniche sono formulate \"Fatte salve le regole tecniche nazionali obbligatorie\", ma non menziona un principio di precedenza specifico basato sulla conformità alle norme armonizzate e alle regole tecniche dell'Unione Europea in relazione a tale precedenza."
+                ],
+                [
+                    "Questo articolo stabilisce che le specifiche tecniche devono essere elaborate in modo da tenere conto delle norme armonizzate e delle regole tecniche dell'Unione Europea, anche se queste non sono state adottate.",
+                    "NO: Il contesto afferma che le specifiche tecniche devono tenere conto dei criteri di accessibilità per le persone con disabilità o di progettazione adeguata per tutti gli utenti, ma non menziona che debbano essere elaborate tenendo conto di norme armonizzate e regole tecniche dell'Unione Europea non ancora adottate."
+                ],
+                [
+                    "Inoltre, le specifiche tecniche devono essere conformi alle norme armonizzate e alle regole tecniche dell'Unione Europea, anche se queste non sono state adottate.",
+                    "NO: Il contesto non afferma che le specifiche tecniche debbano essere conformi a norme armonizzate e regole tecniche dell'Unione Europea non ancora adottate."
+                ]
+            ],
+            [
+                [
+                    "La 'Soglia indicata in Articolo 15, lettera c) della Direttiva 2014/25/UE' è identificata come la soglia minima di importo che deve essere superata da un appalto per essere soggetto all'applicazione della Direttiva.",
+                    "SI: Il contesto afferma che la Direttiva 2014/25/UE si applica agli appalti il cui valore netto dell'IVA è pari o superiore alle soglie, e specifica 'Soglia indicata_in Articolo 15, lettera c) (Direttiva 2014/25/UE) - [Direttiva 2014/25/UE]: soglia indicata all'articolo 15, lettera c)'."
+                ],
+                [
+                    "Questa soglia è definita nel paragrafo 1 dell'articolo 15, lettera c) della Direttiva, che specifica l'importo minimo necessario per che un appalto sia considerato come soggetto all'applicazione della Direttiva 2014/25/UE.",
+                    "NO: Il contesto menziona la soglia indicata all'articolo 15, lettera c), ma non specifica che sia definita nel paragrafo 1 dell'articolo 15, né che l'articolo 15 abbia un paragrafo 1, lettera c)."
+                ]
+            ],
+            [
+                [
+                    "L'oggetto dell'articolo 348 del dpr 5 ottobre 2010, n. 207 è la disciplina del contratto di appalto per l'acquisto di beni e servizi da parte delle amministrazioni pubbliche.",
+                    "NO: Il contesto indica che l'articolo 348 della legge 20 marzo 1865, n. 2248, allegato F, è abrogato dal d.P.R. 207/2010, e non ne disciplina il contenuto."
+                ],
+                [
+                    "Questo articolo stabilisce le norme generali che regolano i contratti di appalto, inclusi gli aspetti relativi alla formulazione, all'approvazione, all'esecuzione e alla gestione dei contratti.",
+                    "NO: Il contesto non fornisce alcuna informazione sul contenuto dell'articolo 348 del d.P.R. 207/2010, né sulle norme generali che regolano i contratti di appalto."
+                ],
+                [
+                    "In particolare, l'articolo 348 disciplina le condizioni contrattuali, le modalità di scelta dei fornitori, le condizioni di pagamento, le responsabilità dei contraenti, e le norme generali che devono essere rispettate durante l'esecuzione del contratto.",
+                    "NO: Il contesto non disciplina le condizioni contrattuali, le modalità di scelta dei fornitori, le condizioni di pagamento, le responsabilità dei contraenti, e le norme generali che devono essere rispettate durante l'esecuzione del contratto per l'articolo 348 del d.P.R. 207/2010."
+                ],
+                [
+                    "Inoltre, l'articolo 348 è riferito a un'ampia gamma di settori e attività, tra cui l'acquisto di beni e servizi da parte delle amministrazioni pubbliche.",
+                    "NO: Il contesto non indica che l'articolo 348 del d.P.R. 207/2010 si riferisce a un'ampia gamma di settori o all'acquisto di beni e servizi da parte delle amministrazioni pubbliche; al contrario, indica che l'articolo 348 della legge 20 marzo 1865, n. 2248, allegato F, è abrogato dal d.P.R. 207/2010."
+                ]
+            ],
+            [
+                [
+                    "La direttanza di un appalto non è giustificata quando l'oggetto dell'appalto non è conforme a una singola unità di lavoro.",
+                    "NO: Il contesto non menziona il concetto di \"direttanza di un appalto\" né stabilisce una relazione tra la giustificazione del frazionamento e la conformità dell'oggetto dell'appalto a una singola unità di lavoro."
+                ],
+                [
+                    "L'oggetto dell'appalto è invece un'unità di lavoro complessa che richiede un'intera opera o prestazione di servizi.",
+                    "NO: Il contesto non definisce l'oggetto dell'appalto come un'unità di lavoro complessa che richiede un'intera opera o prestazione di servizi in relazione alla giustificazione del frazionamento."
+                ],
+                [
+                    "In questo caso, il frazionamento non è giustificato perché non è necessario dividere l'appalto in parti separate per raggiungere gli obiettivi dell'acquisto.",
+                    "NO: Il contesto non afferma che il frazionamento non è giustificato perché non è necessario dividere l'appalto in parti separate per raggiungere gli obiettivi dell'acquisto; piuttosto, indica che il frazionamento non è giustificato se l'amministrazione aggiudicatrice organizza l'appalto in modo decentrato o se non è giustificato da ragioni oggettive."
+                ]
+            ],
+            [
+                [
+                    "L'articolo 19, paragrafo 1 della Direttiva 2004/17/CE non è menzionato nella tavola di concordanza fornita.",
+                    "NO: Il contesto afferma esplicitamente che \"Articolo 19, paragrafo 1 (Direttiva 2014/25/UE) corrisponde_a Articolo 20, paragrafo 1 (Direttiva 2004/17/CE) - [Direttiva 2014/25/UE]: TAVOLA DI CONCORDANZA | Articolo 19, paragrafo 1 | Articolo 20, paragrafo 1; articolo 62, punto 1\", indicando che l'articolo 19, paragrafo 1 della Direttiva 2014/25/UE è menzionato nella tavola di concordanza."
+                ],
+                [
+                    "Non è possibile determinare il corrispondente articolo della Direttiva 2014/25/UE sulla base delle informazioni disponibili.",
+                    "NO: Il contesto fornisce diverse corrispondenze per gli articoli della Direttiva 2014/25/UE con quelli della Direttiva 2004/17/CE, rendendo possibile determinare le corrispondenze."
+                ]
+            ],
+            [
+                [
+                    "L'ammontare a base d'asta che definisce gli appalti di sola esecuzione è di 100 milioni di euro.",
+                    "SI: Il contesto afferma che \"Appalti di sola esecuzione hanno_base_asta_superiore_a 100 milioni di euro\" e \"Garanzia globale di esecuzione è_obbligatorio_per Appalti di sola esecuzione ... di ammontare a base d'asta superiore a 100 milioni di euro.\", indicando che 100 milioni di euro è la soglia di riferimento per tali appalti."
+                ],
+                [
+                    "L'ammontare a base d'asta è stabilito nell'Articolo 129, comma 3 del dPR 5 ottobre 2010.",
+                    "SI: Il contesto specifica che l'informazione sull'ammontare a base d'asta per gli appalti di sola esecuzione è contenuta nell'Art. 129, comma 3 del dPR 5 ottobre 2010."
+                ]
+            ],
+            [
+                [
+                    "Gli Stati membri sono responsabili di stabilire i criteri di qualità specifici menzionati in relazione alla Direttiva 2014/24/UE.",
+                    "NO: Il contesto afferma che le amministrazioni aggiudicatrici hanno la facoltà di applicare criteri di qualità specifici e che gli Stati membri sono liberi di fissare norme di qualità adeguate, ma non indica che gli Stati membri siano responsabili di stabilire i criteri di qualità specifici menzionati in relazione alla Direttiva 2014/24/UE."
+                ]
+            ],
+            [
+                [
+                    "La perdita di un periodo d'imposta può essere computata in diminuzione del reddito d'impresa dei periodi d'imposta successivi.",
+                    "SI: Il contesto afferma esplicitamente: \"La perdita di un periodo d'imposta può_essere_computata_in_diminuzione_del Reddito d'impresa dei periodi d'imposta successivi\"."
+                ],
+                [
+                    "La perdita non può essere computata oltre il quinto periodo d'imposta successivo.",
+                    "SI: Il contesto afferma esplicitamente: \"ma non oltre il quinto\"."
+                ],
+                [
+                    "Questo è stabilito dall'art. 4, 3 della legge 23 dicembre 2000 n. 388 (Finanziaria 2001).",
+                    "NO: Il contesto indica che le regole per la computazione della perdita sono stabilite dall'articolo citato del testo unico delle imposte sui redditi, non dall'art. 4, 3 della legge 23 dicembre 2000 n. 388."
+                ],
+                [
+                    "La riduzione al 47,22% riguarda il reddito del periodo d'imposta in corso al 1° gennaio 2001.",
+                    "SI: Il contesto afferma esplicitamente: \"Riduzione al 47,22% riguarda Reddito del periodo d'imposta in corso al 1° gennaio 2001\"."
+                ],
+                [
+                    "La riduzione è indicata nell'art. 4, 3 della stessa legge.",
+                    "SI: Il contesto afferma esplicitamente che la riduzione è indicata nell'Art. 4. 3 della L. 23 Dicembre 2000 n.388 (Finanziaria 2001)."
+                ]
+            ]
+        ],
+        "analysis_faithfulness_explanations": [
+            [
+                [
+                    "Il D.Lgs. 50/2016, Art. 68, comma 5, stabilisce che le specifiche tecniche devono essere elaborate in modo da tenere conto delle norme armonizzate e delle regole tecniche dell'Unione Europea.",
+                    "NO: Il contesto non menziona che l'Art. 68, comma 5, stabilisca che le specifiche tecniche debbano tenere conto delle norme armonizzate e delle regole tecniche dell'Unione Europea. Il contesto indica che le specifiche tecniche sono formulate \"Fatte salve le regole tecniche nazionali obbligatorie\" e fa riferimento a diverse modalità di formulazione, ma non all'obbligo di tenere conto delle norme armonizzate e delle regole tecniche dell'Unione Europea in generale."
+                ],
+                [
+                    "Questo principio di precedenza implica che le specifiche tecniche devono essere conformi alle norme armonizzate e alle regole tecniche dell'Unione Europea, anche se queste non sono state adottate.",
+                    "NO: Il contesto non supporta l'affermazione che esista un \"principio di precedenza\" che implichi la conformità delle specifiche tecniche alle norme armonizzate e alle regole tecniche dell'Unione Europea, anche se non adottate. L'unica menzione di compatibilità con la normativa dell'Unione è in relazione alle regole tecniche nazionali obbligatorie (\"Fatte salve le regole tecniche nazionali obbligatorie, nella misura in cui sono compatibili con la normativa dell'Unione\"), non un principio generale di precedenza per norme non adottate."
+                ]
+            ],
+            [
+                [
+                    "La 'Soglia indicata in Articolo 15, lettera c)' è una soglia minima di importo per l'applicazione della Direttiva 2014/25/UE.",
+                    "L'affermazione è direttamente supportata dal contesto: \"Soglia indicata_in Articolo 15, lettera c) (Direttiva 2014/25/UE) - [Direttiva 2014/25/UE]: soglia indicata all'articolo 15, lettera c).\" e \"Appalti di servizi sociali e altri servizi specifici sono_aggiudicati_se_valore pari o superiore alla soglia - [Direttiva 2014/25/UE]: quando il valore di tali contratti sia pari o superiore alla soglia indicata all'articolo 15, lettera c).\""
+                ],
+                [
+                    "Questa soglia è la soglia minima che deve essere superata da un appalto per essere soggetto all'applicazione della Direttiva.",
+                    "L'affermazione è direttamente supportata dal contesto: \"Appalti di servizi sociali e altri servizi specifici sono_aggiudicati_se_valore pari o superiore alla soglia - [Direttiva 2014/25/UE]: quando il valore di tali contratti sia pari o superiore alla soglia indicata all'articolo 15, lettera c).\" e \"Direttiva 2014/25/UE si_applica_a Appalti - Direttiva 2014/25/UE (Parte 63/232): La presente direttiva si applica agli appalti che non sono esclusi in virtù delle eccezioni di cui agli articoli da 18 a 23 o ai sensi dell'articolo 34 concernente il perseguimento dell'attività in questione e il cui valore netto dell'imposta sul valore aggiunto (IVA) è pari o superiore alle soglie seguenti:\"."
+                ],
+                [
+                    "La soglia è definita nel paragrafo 1 dell'articolo 15, lettera c) della Direttiva.",
+                    "L'affermazione è direttamente supportata dal contesto: \"Soglia indicata_in Articolo 15, lettera c) (Direttiva 2014/25/UE) - [Direttiva 2014/25/UE]: soglia indicata all'articolo 15, lettera c).\" e \"Articolo 15 (Direttiva 2014/25/UE) ha_titolo Importi delle soglie - Direttiva 2014/25/UE (Parte 63/232): Importi delle soglie\"."
+                ]
+            ],
+            [
+                [
+                    "L'articolo 348 del dpr 5 ottobre 2010, n. 207 è un articolo che disciplina il contratto di appalto per l'acquisto di beni e servizi da parte delle amministrazioni pubbliche.",
+                    "No: Il contesto indica che l'articolo 348 della legge 20 marzo 1865, n. 2248, allegato F, è abrogato dal d.P.R. 207/2010, non che il d.P.R. 207/2010 contenga un articolo 348 che disciplina il contratto di appalto."
+                ],
+                [
+                    "L'oggetto di questa disciplina è quindi il contratto di appalto, con particolare riferimento alle norme generali che regolano i contratti di appalto.",
+                    "No: Il contesto non fornisce alcuna informazione sull'oggetto della disciplina dell'articolo 348 del d.P.R. 207/2010, poiché tale articolo non esiste nel d.P.R. 207/2010 secondo il contesto."
+                ],
+                [
+                    "L'articolo 348 stabilisce le condizioni contrattuali, le modalità di scelta dei fornitori, le condizioni di pagamento, le responsabilità dei contraenti, e le norme generali che devono essere rispettate durante l'esecuzione del contratto.",
+                    "No: Il contesto non fornisce alcuna informazione su ciò che l'articolo 348 del d.P.R. 207/2010 stabilisce, poiché tale articolo non esiste nel d.P.R. 207/2010 secondo il contesto."
+                ],
+                [
+                    "Inoltre, l'articolo 348 è riferito a un'ampia gamma di settori e attività, tra cui l'acquisto di beni e servizi da parte delle amministrazioni pubbliche.",
+                    "No: Il contesto non fornisce alcuna informazione sui settori o attività a cui si riferisce l'articolo 348 del d.P.R. 207/2010, poiché tale articolo non esiste nel d.P.R. 207/2010 secondo il contesto."
+                ]
+            ],
+            [
+                [
+                    "La Direttiva 2014/24/UE stabilisce che il frazionamento di un appalto non è giustificato quando l'oggetto dell'appalto non è conforme a una singola unità di lavoro, ma è invece un'unità di lavoro complessa che richiede un'intera opera o prestazione di servizi.",
+                    "L'affermazione non è supportata dal contesto, che non menziona che il frazionamento non è giustificato quando l'oggetto dell'appalto è un'unità di lavoro complessa che richiede un'intera opera o prestazione di servizi."
+                ],
+                [
+                    "Questo è indicato nel paragrafo 8 della Direttiva, che afferma che quando un'opera prevista o una prestazione di servizi prevista può dar luogo ad appalti aggiudicati per lotti separati, il frazionamento è giustificato.",
+                    "Il contesto non contiene il paragrafo 8 della Direttiva 2014/24/UE che afferma che quando un'opera prevista o una prestazione di servizi prevista può dar luogo ad appalti aggiudicati per lotti separati, il frazionamento è giustificato."
+                ],
+                [
+                    "Tuttavia, se l'oggetto dell'appalto non è conforme a una singola unità di lavoro, il frazionamento non è giustificato.",
+                    "L'affermazione non è supportata dal contesto, che non menziona che il frazionamento non è giustificato se l'oggetto dell'appalto non è conforme a una singola unità di lavoro."
+                ]
+            ],
+            [
+                [
+                    "La domanda chiede a quale articolo della Direttiva 2014/25/UE corrisponde l'Articolo 19, paragrafo 1 della Direttiva 2004/17/CE.",
+                    "SI: L'affermazione è esplicitamente dichiarata nella risposta."
+                ],
+                [
+                    "La tavola di concordanza fornita non include alcuna corrispondenza per l'Articolo 19, paragrafo 1 della Direttiva 2004/17/CE.",
+                    "SI: L'affermazione è esplicitamente dichiarata nella risposta."
+                ],
+                [
+                    "Non è possibile determinare il corrispondente articolo della Direttiva 2014/25/UE sulla base delle informazioni disponibili.",
+                    "SI: L'affermazione è esplicitamente dichiarata nella risposta."
+                ]
+            ],
+            [
+                [
+                    "Gli appalti di sola esecuzione hanno una base d'asta superiore a 100 milioni di euro.",
+                    "SI: Il contesto afferma esplicitamente che 'Appalti di sola esecuzione hanno_base_asta_superiore_a 100 milioni di euro'."
+                ],
+                [
+                    "L'Articolo 129, comma 3 del dPR 5 ottobre 2010 è la fonte per la definizione dell'importo minimo.",
+                    "SI: Il contesto indica che l'Art. 129, comma 3 del dPR 5 ottobre 2010 è la fonte per l'informazione relativa alla base d'asta superiore a 100 milioni di euro."
+                ]
+            ],
+            [
+                [
+                    "La Direttiva 2014/24/UE non stabilisce direttamente i criteri di qualità specifici.",
+                    "SI: La risposta afferma che \"La Direttiva 2014/24/UE non stabilisce direttamente i criteri di qualità specifici\"."
+                ],
+                [
+                    "La Direttiva 2014/24/UE conferisce agli Stati membri la libertà di definire tali criteri.",
+                    "SI: La risposta afferma che la direttiva \"conferisce agli Stati membri la libertà di definire tali criteri\"."
+                ],
+                [
+                    "L'articolo 45 della direttiva menziona che gli Stati membri possono prevedere che la scelta del prestatore di servizi avvenga sulla base dell'offerta che presenta il miglior rapporto qualità/prezzo.",
+                    "SI: La risposta afferma che \"l'articolo 45 della direttiva menziona che gli Stati membri possono prevedere che la scelta del prestatore di servizi avvenga sulla base dell'offerta che presenta il miglior rapporto qualità/prezzo\"."
+                ],
+                [
+                    "L'articolo 42 della direttiva specifica le caratteristiche tecniche.",
+                    "SI: La risposta afferma che \"l'articolo 42 della direttiva specifica le caratteristiche tecniche\"."
+                ],
+                [
+                    "L'articolo 42 della direttiva lascia la definizione di criteri di qualità alle autorità competenti degli Stati membri.",
+                    "SI: La risposta afferma che l'articolo 42 \"lascia la definizione di criteri di qualità alle autorità competenti degli Stati membri\"."
+                ],
+                [
+                    "L'articolo 44, paragrafo 2, corrisponde a norme dell'Unione europea che conferiscono agli Stati membri la libertà di definire i criteri di qualità.",
+                    "SI: La risposta afferma che \"l'articolo 44, paragrafo 2, corrisponde a norme dell'Unione europea che conferiscono agli Stati membri la libertà di definire i criteri di qualità\"."
+                ],
+                [
+                    "Gli Stati membri sono responsabili di stabilire i criteri di qualità specifici.",
+                    "SI: La risposta afferma che \"gli Stati membri sono responsabili di stabilire i criteri di qualità specifici\"."
+                ]
+            ],
+            [
+                [
+                    "La perdita di un periodo d'imposta può essere computata in diminuzione del reddito d'impresa nei periodi d'imposta successivi.",
+                    "SI: La risposta afferma che \"La perdita di un periodo d'imposta può essere computata in diminuzione del reddito d'impresa nei periodi d'imposta successivi.\""
+                ],
+                [
+                    "La perdita di un periodo d'imposta non può essere computata oltre il quinto periodo d'imposta successivo.",
+                    "SI: La risposta afferma che \"...ma non oltre il quinto periodo d'imposta successivo.\""
+                ],
+                [
+                    "Il limite temporale è specificato nel testo unico delle imposte sui redditi.",
+                    "SI: La risposta afferma che \"Questo limite temporale è specificato nel testo unico delle imposte sui redditi.\""
+                ],
+                [
+                    "La riduzione al 47,22% riguarda il reddito del periodo d'imposta in corso al 1° gennaio 2001.",
+                    "SI: La risposta afferma che \"Inoltre, la riduzione al 47,22% riguarda il reddito del periodo d'imposta in corso al 1° gennaio 2001.\""
+                ],
+                [
+                    "La riduzione al 47,22% è indicata nell'art. 4, 3 della legge 23 dicembre 2000 n. 388 (Finanziaria 2001).",
+                    "SI: La risposta afferma che \"...come indicato nell'art. 4, 3 della legge 23 dicembre 2000 n. 388 (Finanziaria 2001).\""
+                ]
+            ]
+        ],
+        "answer_accuracy_explanations": [
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth si riferisce alle regole tecniche nazionali obbligatorie, mentre la risposta generata menziona le norme armonizzate e le regole tecniche dell'Unione Europea.",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth si riferisce a norme armonizzate e regole tecniche dell'Unione Europea, mentre la risposta generata parla di regole tecniche nazionali obbligatorie."
+            },
+            {
+                "response1": "Score 2: La risposta generata è parzialmente allineata alla ground truth. La ground truth afferma che il contesto non fornisce ulteriori dettagli sulla natura o il valore della soglia, mentre la risposta generata tenta di specificare la natura della soglia come \"soglia minima di importo\" e \"soglia minima che deve essere superata da un appalto\".",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth, ma non specifica che si tratta di una soglia minima di importo per l'applicazione della Direttiva."
+            },
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica che l'Articolo 348 del dPR 5 ottobre 2010, n. 207, ha come oggetto la 'Direzione dei lavori relativi agli interventi di cooperazione', mentre la risposta generata parla di 'contratto di appalto per l'acquisto di beni e servizi da parte delle amministrazioni pubbliche'.",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica che l'articolo 348 disciplina il contratto di appalto per l'acquisto di beni e servizi, mentre la risposta generata afferma che l'oggetto è la 'Direzione dei lavori relativi agli interventi di cooperazione'."
+            },
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth si riferisce alla decentralizzazione come giustificazione insufficiente, mentre la risposta generata parla di \"oggetto dell'appalto non conforme a una singola unità di lavoro\".",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica che il frazionamento non è giustificato quando l'oggetto dell'appalto non è conforme a una singola unità di lavoro, mentre la risposta generata parla di decentralizzazione dell'amministrazione aggiudicatrice."
+            },
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica una corrispondenza specifica, mentre la risposta generata afferma che non è possibile determinarla.",
+                "response2": "Score 0: La risposta generata fornisce una corrispondenza che non è presente nella ground truth e afferma che il contesto la indica esplicitamente, mentre la ground truth afferma il contrario."
+            },
+            {
+                "response1": "Score 4: La risposta generata è esattamente allineata alla ground truth.",
+                "response2": "Score 4: La risposta generata è esattamente allineata alla ground truth, specificando l'ammontare e la fonte normativa."
+            },
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica che i criteri sono stabiliti dal 'Quadro europeo volontario della qualità per i servizi sociali', mentre la risposta generata afferma che sono gli Stati membri a stabilirli.",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth afferma che gli Stati membri sono responsabili di stabilire i criteri di qualità, mentre la risposta generata indica il 'Quadro europeo volontario della qualità per i servizi sociali'."
+            },
+            {
+                "response1": "Score 2: La risposta generata è parzialmente allineata alla ground truth. La risposta generata aggiunge informazioni non presenti nella ground truth (la riduzione al 47,22%) e attribuisce il limite temporale al testo unico delle imposte sui redditi, mentre la ground truth lo attribuisce alla L. 23 Dicembre 2000 n.388.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth, ma omette la riduzione al 47,22% del reddito del periodo d'imposta in corso al 1° gennaio 2001."
+            }
+        ]
+    },
+    "2_hop": {
+        "avg_context_faithfulness": 0.7692307692307693,
+        "avg_analysis_faithfulness": 0.9236111111111112,
+        "avg_answer_accuracy": 0.375,
+        "context_faithfulness_explanations": [
+            [
+                [
+                    "La classe NACE 45.12 non include le prospezioni di giacimenti di petrolio e di gas.",
+                    "SI: Il contesto afferma esplicitamente che \"NACE Classe 45.12 non_comprendono Prospezioni di giacimenti di petrolio e di gas\"."
+                ],
+                [
+                    "Questa attività è invece classificata nella classe NACE 74.20.",
+                    "SI: Il contesto indica che le \"prospezioni di giacimenti di petrolio e di gas, prospezioni geofisiche, geologiche e sismiche\" sono classificate in \"cfr. 74.20\"."
+                ]
+            ],
+            [
+                [
+                    "L'appaltatore ha l'obbligo di mettere a disposizione dei magazzini e dei cantieri della stazione appaltante.",
+                    "SI: Il contesto afferma che l'appaltatore \"deve mettere i magazzini [...] a disposizione della stazione appaltante\" e \"deve mettere i [...] cantieri a disposizione della stazione appaltante\"."
+                ],
+                [
+                    "L'obbligo è in conformità con l'Art. 109, comma 6 del D.Lgs. 50/2016.",
+                    "SI: Entrambe le affermazioni sull'obbligo di mettere a disposizione magazzini e cantieri sono riferite all'Art. 109, comma 6 del D.Lgs. 50/2016 nel contesto."
+                ]
+            ],
+            [
+                [
+                    "Il comma 6 dell'art. 109 del D.Lgs. 50/2016 prevede che l'appaltatore deve rimuovere dai magazzini e dai cantieri i materiali non accettati dal direttore dei lavori.",
+                    "SI: Il contesto afferma esplicitamente: \"Appaltatore ha_obbligo_di_rimuovere Materiali non accettati - [D.Lgs. 50/2016]: Art. 109, comma 6: L'appaltatore deve rimuovere dai magazzini e dai cantieri i materiali non accettati dal direttore dei lavori\"."
+                ],
+                [
+                    "L'appaltatore deve mettere i magazzini a disposizione della stazione appaltante.",
+                    "SI: Il contesto afferma esplicitamente: \"Appaltatore hanno_obbligo_di_mettere_a_disposizione Magazzini - [D.Lgs. 50/2016]: Art. 109, comma 6: deve mettere i magazzini [...] a disposizione della stazione appaltante\"."
+                ],
+                [
+                    "Queste disposizioni sono riferite alla gestione dei materiali non accettati in relazione ai magazzini.",
+                    "SI: Le affermazioni precedenti e le relative citazioni dal contesto (Art. 109, comma 6) si riferiscono chiaramente alla gestione dei materiali non accettati e ai magazzini."
+                ]
+            ],
+            [
+                [
+                    "La condizione relativa all'alimentazione della rete pubblica è che essa mira solo a sfruttare economicamente la produzione.",
+                    "SI: Il contesto afferma esplicitamente: \"Condizione (alimentazione rete pubblica) mira_a sfruttare economicamente produzione - [D.Lgs. 50/2016]: ii) l'alimentazione della rete pubblica mira solo a sfruttare economicamente tale produzione\"."
+                ],
+                [
+                    "La condizione relativa all'alimentazione della rete pubblica è che essa non supera il 30% della produzione totale di energia dell'ente aggiudicatore.",
+                    "SI: Il contesto afferma esplicitamente: \"Condizione (alimentazione rete pubblica) non_supera 30% della produzione totale di energia - [D.Lgs. 50/2016]: b) l'alimentazione della rete pubblica dipende solo dal consumo proprio di tale ente aggiudicatore e non supera il 30% della produzione totale di energia di tale ente aggiudicatore, considerando la media degli ultimi tre anni, compreso l'anno in corso;\"."
+                ],
+                [
+                    "La produzione totale di energia dell'ente aggiudicatore è calcolata sulla base della media degli ultimi tre anni, compreso l'anno in corso.",
+                    "SI: Il contesto afferma esplicitamente: \"Produzione totale di energia (ente aggiudicatore) calcolato_su media ultimi tre anni (incluso anno in corso) - [D.Lgs. 50/2016]: b) l'alimentazione della rete pubblica dipende solo dal consumo proprio di tale ente aggiudicatore e non supera il 30% della produzione totale di energia di tale ente aggiudicatore, considerando la media degli ultimi tre anni, compreso l'anno in corso;\"."
+                ],
+                [
+                    "Il fatturato di riferimento è calcolato sulla base della media degli ultimi tre anni, compreso l'anno in corso.",
+                    "SI: Il contesto afferma esplicitamente: \"Fatturato (ente aggiudicatore) calcolato_su media ultimi tre anni (incluso anno in corso) - [D.Lgs. 50/2016]: ii) l'alimentazione della rete pubblica mira solo a sfruttare economicamente tale produzione e corrisponde al massimo al 20% del fatturato di tale ente aggiudicatore, considerando la media degli ultimi tre anni, compreso l'anno in corso.\"."
+                ],
+                [
+                    "L'alimentazione della rete pubblica non supera il 20% del fatturato di tale ente aggiudicatore.",
+                    "SI: Il contesto afferma esplicitamente: \"Alimentazione rete pubblica corrisponde_al_massimo_a 20% del fatturato ente aggiudicatore - [D.Lgs. 50/2016 (Parte 157/323)]: Art. 115, comma 2, lett. b): e corrisponde al massimo al 20 per cento del fatturato dell'ente aggiudicatore\"."
+                ]
+            ],
+            [
+                [
+                    "Il termine minimo stabilito per la ricezione delle domande di partecipazione è di 30 giorni.",
+                    "SI: Il contesto afferma più volte che il termine minimo per la ricezione delle domande di partecipazione è di 30 giorni (es. 'Termine minimo (ricezione domande di partecipazione) è_di 30 giorni - Direttiva 2014/25/UE')."
+                ],
+                [
+                    "Questo termine è previsto dall'articolo 61 del D.Lgs. 50/2016.",
+                    "NO: Il contesto non afferma che il termine di 30 giorni sia previsto dall'articolo 61 del D.Lgs. 50/2016 per la ricezione delle domande di partecipazione, ma menziona l'articolo 61, comma 5, in relazione al termine minimo per la ricezione delle offerte."
+                ],
+                [
+                    "In determinati casi, il termine può essere ridotto a 15 giorni.",
+                    "SI: Il contesto indica che il termine di 30 giorni 'puo' essere ridotto fino a quindici giorni' ('Termine di 30 giorni per ricezione domande di partecipazione (Articolo 64, comma 3) può_essere_ridotto_a 15 giorni - D.Lgs. 50/2016')."
+                ],
+                [
+                    "Questo avviene quando è pubblicato un avviso periodico indicativo e è stato trasmesso un invito a confermare interesse.",
+                    "SI: Il contesto specifica che la riduzione a 15 giorni avviene 'qualora sia stato pubblicato un avviso periodico indicativo e sia stato trasmesso un invito a confermare interesse' ('Enti aggiudicatori nei settori speciali applicano_articoli Articolo 64 (D.Lgs. 50/2016)')."
+                ],
+                [
+                    "La riduzione a 15 giorni è indicata nell'articolo 64 del D.Lgs. 50/2016.",
+                    "SI: Il contesto afferma che la riduzione a 15 giorni è menzionata in relazione all'Articolo 64 del D.Lgs. 50/2016 ('Enti aggiudicatori nei settori speciali applicano_articoli Articolo 64 (D.Lgs. 50/2016)')."
+                ],
+                [
+                    "La Direttiva 2014/24/UE stabilisce che il termine minimo per la ricezione delle domande di partecipazione è di 15 giorni dalla data di trasmissione del bando di gara.",
+                    "NO: Il contesto afferma che la Direttiva 2014/24/UE stabilisce un termine minimo di 30 giorni per la ricezione delle domande di partecipazione, non 15 giorni, se non in casi di urgenza."
+                ],
+                [
+                    "In casi di urgenza, l'amministrazione aggiudicatrice può fissare un termine più breve.",
+                    "SI: Il contesto indica che 'Quando, per motivi di urgenza debitamente dimostrati dall'amministrazione aggiudicatrice, sia impossibile rispettare i termini minimi previsti al presente articolo, essa può fissare: a) per la ricezione delle domande di partecipazione, un termine non inferiore a quindici giorni dalla data di trasmissione del bando di gara;' ('Amministrazione aggiudicatrice può_fissare_termine_ridotto_per_urgenza_per Ricezione domande di partecipazione - [Direttiva 2014/24/UE]')."
+                ],
+                [
+                    "Il termine più breve fissato in casi di urgenza non deve essere inferiore a 15 giorni.",
+                    "SI: Il contesto specifica che il termine più breve fissato in casi di urgenza 'non inferiore a quindici giorni' ('Termine per la ricezione delle domande di partecipazione (Urgenza) è_inferiore_a 15 giorni - [Direttiva 2014/24/UE]')."
+                ]
+            ],
+            [
+                [
+                    "Secondo la Direttiva 2014/25/UE, un avviso di concorso deve includere una descrizione dell'appalto.",
+                    "NO: Il contesto menziona che gli avvisi di concorsi di progettazione contengono una 'Descrizione del progetto (codici CPV)', ma non una generica 'descrizione dell'appalto' per un avviso di concorso."
+                ],
+                [
+                    "La descrizione dell'appalto deve includere dettagli sulle attività.",
+                    "NO: Il contesto menziona 'Descrizione del progetto (codici CPV)' ma non specifica che debba includere dettagli sulle attività."
+                ],
+                [
+                    "La descrizione dell'appalto deve includere i requisiti tecnici.",
+                    "NO: Il contesto menziona 'Descrizione del progetto (codici CPV)' ma non specifica che debba includere i requisiti tecnici."
+                ],
+                [
+                    "La descrizione dell'appalto deve includere le condizioni generali.",
+                    "NO: Il contesto menziona 'Descrizione del progetto (codici CPV)' ma non specifica che debba includere le condizioni generali."
+                ],
+                [
+                    "La descrizione dell'appalto deve includere le normative applicabili.",
+                    "NO: Il contesto menziona 'Descrizione del progetto (codici CPV)' ma non specifica che debba includere le normative applicabili."
+                ],
+                [
+                    "Un avviso di concorso deve includere le condizioni di partecipazione.",
+                    "SI: Il contesto afferma che un 'Avviso di gara deve contenere Condizioni di partecipazione (Operatori economici)' e 'Avviso periodico indicativo deve contenere Condizioni di partecipazione'."
+                ],
+                [
+                    "Le condizioni di partecipazione includono requisiti per la partecipazione.",
+                    "NO: Il contesto menziona 'Condizioni di partecipazione' ma non specifica che includano requisiti per la partecipazione in generale."
+                ],
+                [
+                    "I requisiti per la partecipazione includono la qualificazione.",
+                    "NO: Il contesto menziona 'Condizioni di partecipazione' ma non specifica che includano la qualificazione."
+                ],
+                [
+                    "I requisiti per la partecipazione includono l'esperienza.",
+                    "NO: Il contesto menziona 'Condizioni di partecipazione' ma non specifica che includano l'esperienza."
+                ],
+                [
+                    "I requisiti per la partecipazione includono la capacità finanziaria.",
+                    "NO: Il contesto menziona 'Condizioni di partecipazione' ma non specifica che includano la capacità finanziaria."
+                ],
+                [
+                    "Le condizioni di partecipazione possono includere eventuali limitazioni.",
+                    "NO: Il contesto menziona 'Condizioni di partecipazione' ma non specifica che possano includere eventuali limitazioni."
+                ],
+                [
+                    "Un avviso di concorso deve includere la procedura di selezione.",
+                    "NO: Il contesto non menziona esplicitamente che un avviso di concorso debba includere la procedura di selezione."
+                ],
+                [
+                    "La procedura di selezione include i criteri per la valutazione delle offerte.",
+                    "NO: Il contesto non menziona esplicitamente che la procedura di selezione includa i criteri per la valutazione delle offerte."
+                ],
+                [
+                    "La procedura di selezione include il processo di scelta.",
+                    "NO: Il contesto non menziona esplicitamente che la procedura di selezione includa il processo di scelta."
+                ],
+                [
+                    "La procedura di selezione include le norme per la gestione delle eventuali contestazioni.",
+                    "NO: Il contesto non menziona esplicitamente che la procedura di selezione includa le norme per la gestione delle eventuali contestazioni."
+                ],
+                [
+                    "Un avviso di concorso deve includere il termine e la forma di presentazione delle offerte.",
+                    "SI: Il contesto afferma che 'Concorso aperto include_informazioni_su Data limite di ricezione dei progetti' e 'Concorso ristretto include_informazioni_su Termine ultimo per la presentazione delle domande di partecipazione'."
+                ],
+                [
+                    "Il termine e la forma di presentazione delle offerte includono le date di scadenza.",
+                    "NO: Il contesto menziona 'Data limite di ricezione dei progetti' e 'Termine ultimo per la presentazione delle domande di partecipazione' ma non che includano genericamente le date di scadenza per le offerte."
+                ],
+                [
+                    "Il termine e la forma di presentazione delle offerte includono le modalità di presentazione (fisica o elettronica).",
+                    "NO: Il contesto menziona 'la trasmissione in via elettronica delle offerte o delle domande di partecipazione è richiesta/accettata' ma non che il termine e la forma di presentazione delle offerte includano le modalità di presentazione (fisica o elettronica)."
+                ],
+                [
+                    "Il termine e la forma di presentazione delle offerte includono i formati richiesti.",
+                    "NO: Il contesto non menziona che il termine e la forma di presentazione delle offerte includano i formati richiesti."
+                ],
+                [
+                    "Un avviso di concorso deve includere informazioni sulle condizioni contrattuali.",
+                    "SI: Il contesto afferma che i 'Documenti di gara includono Condizioni contrattuali proposte'."
+                ],
+                [
+                    "Le informazioni sulle condizioni contrattuali includono dettagli sulle condizioni generali del contratto.",
+                    "NO: Il contesto menziona 'Condizioni contrattuali proposte' ma non specifica che includano dettagli sulle condizioni generali del contratto."
+                ],
+                [
+                    "Le condizioni generali del contratto includono i termini di pagamento.",
+                    "NO: Il contesto menziona 'Condizioni contrattuali proposte' ma non specifica che includano i termini di pagamento."
+                ],
+                [
+                    "Le condizioni generali del contratto includono le responsabilità.",
+                    "NO: Il contesto menziona 'Condizioni contrattuali proposte' ma non specifica che includano le responsabilità."
+                ],
+                [
+                    "Le condizioni generali del contratto includono le clausole di risoluzione.",
+                    "NO: Il contesto menziona 'Condizioni contrattuali proposte' ma non specifica che includano le clausole di risoluzione."
+                ],
+                [
+                    "Un avviso di concorso deve includere misure di protezione delle informazioni confidenziali.",
+                    "SI: Il contesto afferma che 'Avviso di gara deve contenere Misure di protezione (informazioni confidenziali)' e 'Invito a confermare interesse deve contenere Misure di protezione (informazioni confidenziali)'."
+                ],
+                [
+                    "Le misure di protezione delle informazioni confidenziali includono indicazioni su come proteggere la natura confidenziale delle informazioni scambiate durante il processo.",
+                    "SI: Il contesto afferma che 'Misure di protezione (informazioni confidenziali)' indicano 'quali misure richiedono al fine di proteggere la natura confidenziale delle informazioni'."
+                ],
+                [
+                    "Un avviso di concorso deve includere informazioni sulle normative applicabili.",
+                    "NO: Il contesto non menziona esplicitamente che un avviso di concorso debba includere informazioni sulle normative applicabili."
+                ],
+                [
+                    "Le informazioni sulle normative applicabili includono riferimenti alle leggi.",
+                    "NO: Il contesto non menziona esplicitamente che le informazioni sulle normative applicabili includano riferimenti alle leggi."
+                ],
+                [
+                    "Le informazioni sulle normative applicabili includono riferimenti ai regolamenti.",
+                    "NO: Il contesto non menziona esplicitamente che le informazioni sulle normative applicabili includano riferimenti ai regolamenti."
+                ],
+                [
+                    "Le informazioni sulle normative applicabili includono riferimenti alle norme che governano l'appalto.",
+                    "NO: Il contesto non menziona esplicitamente che le informazioni sulle normative applicabili includano riferimenti alle norme che governano l'appalto."
+                ],
+                [
+                    "Un avviso di concorso deve includere informazioni sulle condizioni di divulgazione.",
+                    "NO: Il contesto non menziona esplicitamente che un avviso di concorso debba includere informazioni sulle condizioni di divulgazione."
+                ],
+                [
+                    "Le informazioni sulle condizioni di divulgazione includono indicazioni su quando e come le informazioni relative all'appalto saranno divulgate.",
+                    "NO: Il contesto non menziona esplicitamente che le informazioni sulle condizioni di divulgazione includano indicazioni su quando e come le informazioni relative all'appalto saranno divulgate."
+                ],
+                [
+                    "Un avviso di concorso deve includere informazioni sulle condizioni di accesso.",
+                    "NO: Il contesto non menziona esplicitamente che un avviso di concorso debba includere informazioni sulle condizioni di accesso."
+                ],
+                [
+                    "Le informazioni sulle condizioni di accesso includono dettagli su come gli operatori economici possono accedere ai documenti e alle informazioni rilevanti.",
+                    "NO: Il contesto non menziona esplicitamente che le informazioni sulle condizioni di accesso includano dettagli su come gli operatori economici possono accedere ai documenti e alle informazioni rilevanti."
+                ],
+                [
+                    "Un avviso di concorso deve includere informazioni sulle condizioni di riservatezza.",
+                    "NO: Il contesto non menziona esplicitamente che un avviso di concorso debba includere informazioni sulle condizioni di riservatezza."
+                ],
+                [
+                    "Le informazioni sulle condizioni di riservatezza includono indicazioni su come gestire la riservatezza delle informazioni durante e dopo il processo.",
+                    "NO: Il contesto non menziona esplicitamente che le informazioni sulle condizioni di riservatezza includano indicazioni su come gestire la riservatezza delle informazioni durante e dopo il processo."
+                ],
+                [
+                    "Queste informazioni sono riportate nell'Allegato V della Direttiva 2014/24/UE.",
+                    "SI: Il contesto afferma che 'ALLEGATO V (Direttiva 2014/24/UE) riguarda Informazioni che devono figurare negli avvisi'."
+                ],
+                [
+                    "L'Allegato V della Direttiva 2014/24/UE specifica le informazioni che devono essere incluse nei bandi e negli avvisi di gara per i contratti di servizi sociali e altri servizi specifici.",
+                    "NO: Il contesto afferma che 'Parte H (ALLEGATO V, Direttiva 2014/24/UE) riguarda Informazioni che devono figurare nei bandi di gara e negli avvisi di aggiudicazione per i contratti di servizi sociali e di altri servizi specifici', ma non che l'intero Allegato V specifichi solo questo."
+                ],
+                [
+                    "Le informazioni sono indicate nell'Articolo 75, paragrafo 1 della Direttiva 2014/24/UE.",
+                    "NO: Il contesto afferma che 'Parte H (ALLEGATO V, Direttiva 2014/24/UE) rinvia_a Articolo 75, paragrafo 1 (Direttiva 2014/24/UE)' e 'Parte I (ALLEGATO V, Direttiva 2014/24/UE) rinvia_a Articolo 75, paragrafo 1 (Direttiva 2014/24/UE)', ma non che tutte le informazioni dell'Allegato V siano indicate nell'Articolo 75, paragrafo 1."
+                ]
+            ],
+            [
+                [
+                    "Gli Stati membri hanno la facoltà di riservare la partecipazione alle procedure di aggiudicazione di appalti pubblici o di determinati lotti di appalti a imprese sociali.",
+                    "SI: Il contesto afferma che gli Stati membri possono riservare la partecipazione alle procedure di aggiudicazione di appalti pubblici o di determinati lotti di appalti a tali laboratori o imprese, e menziona esplicitamente le imprese sociali come destinatarie di tale facoltà."
+                ],
+                [
+                    "Questo è indicato nell'articolo 40 della Direttiva 2014/24/UE.",
+                    "NO: Il contesto non menziona l'articolo 40 in relazione alla riserva di partecipazione per le imprese sociali; l'articolo 40 è menzionato solo in relazione alla fornitura di consulenza da parte di un operatore economico all'amministrazione aggiudicatrice."
+                ],
+                [
+                    "Questo permette agli Stati membri di prevedere che certi appalti siano eseguiti da entità specifiche, come imprese sociali.",
+                    "SI: Il contesto indica che gli Stati membri possono riservare l'esecuzione di appalti nel contesto di programmi di lavoro protetti, il che implica la possibilità di prevedere che certi appalti siano eseguiti da entità specifiche come le imprese sociali."
+                ],
+                [
+                    "Questo deve avvenire nel rispetto delle norme comunitarie.",
+                    "SI: Il contesto afferma che le condizioni di applicazione dell'articolo 57 (che include la riserva di partecipazione) devono essere specificate dagli Stati membri 'nel rispetto del diritto dell'Unione'."
+                ]
+            ],
+            [
+                [
+                    "Il responsabile del rilascio dell'attestazione di cui all'articolo 106, comma 1, è il direttore dei lavori.",
+                    "NO: Il contesto indica che l'attestazione di cui all'articolo 106, comma 1, è rilasciata dal direttore dei lavori, ma specifica anche che è rilasciata dal responsabile del procedimento nel caso in cui non sia stato ancora nominato il direttore dei lavori, rendendo l'affermazione non completamente fedele."
+                ],
+                [
+                    "Il rapporto conclusivo del soggetto preposto alla verifica ha il compito di accertare l'avvenuto rilascio dell'attestazione da parte del direttore dei lavori.",
+                    "SI: Il contesto afferma che 'Il rapporto conclusivo del soggetto preposto alla verifica ... accerta l'avvenuto rilascio da parte del direttore lavori della attestazione, di cui all'articolo 106, comma 1.'"
+                ]
+            ]
+        ],
+        "analysis_faithfulness_explanations": [
+            [
+                [
+                    "La classe NACE 45.12 non comprende le prospezioni di giacimenti di petrolio e di gas.",
+                    "SI: La risposta afferma esplicitamente che 'la classe NACE 45.12 non comprende le prospezioni di giacimenti di petrolio e di gas'."
+                ],
+                [
+                    "Le prospezioni di giacimenti di petrolio e di gas sono classificate nella classe NACE 74.20.",
+                    "SI: La risposta afferma esplicitamente che 'Questa attività è invece classificata nella classe NACE 74.20'."
+                ],
+                [
+                    "La classe NACE 74.20 si occupa di prospezioni geofisiche, geologiche e sismiche.",
+                    "SI: La risposta afferma esplicitamente che la classe NACE 74.20 'si occupa di prospezioni geofisiche, geologiche e sismiche'."
+                ],
+                [
+                    "La classe NACE 74.20 si occupa di attività correlate all'estrazione di petrolio e gas.",
+                    "SI: La risposta afferma esplicitamente che la classe NACE 74.20 'nonché di attività correlate all'estrazione di petrolio e gas'."
+                ]
+            ],
+            [
+                [
+                    "Secondo il D.Lgs. 50/2016, l'appaltatore è tenuto a mettere a disposizione dei magazzini e dei cantieri della stazione appaltante.",
+                    "SI: L'affermazione è direttamente supportata dalla risposta e dal contesto: 'Appaltatore hanno_obbligo_di_mettere_a_disposizione Magazzini - [D.Lgs. 50/2016]: Art. 109, comma 6: deve mettere i magazzini [...] a disposizione della stazione appaltante' e 'Appaltatore hanno_obbligo_di_mettere_a_disposizione Cantieri - [D.Lgs. 50/2016]: Art. 109, comma 6: deve mettere i [...] cantieri a disposizione della stazione appaltante'."
+                ],
+                [
+                    "Questo obbligo è espresso nell'Art. 109, comma 6, che prevede che l'appaltatore deve mettere i magazzini a disposizione della stazione appaltante e anche i cantieri.",
+                    "SI: L'affermazione è direttamente supportata dalla risposta e dal contesto: 'Appaltatore hanno_obbligo_di_mettere_a_disposizione Magazzini - [D.Lgs. 50/2016]: Art. 109, comma 6: deve mettere i magazzini [...] a disposizione della stazione appaltante' e 'Appaltatore hanno_obbligo_di_mettere_a_disposizione Cantieri - [D.Lgs. 50/2016]: Art. 109, comma 6: deve mettere i [...] cantieri a disposizione della stazione appaltante'."
+                ],
+                [
+                    "Inoltre, l'appaltatore ha l'obbligo di rimuovere i materiali non accettati dai magazzini, come indicato nell'Art. 109, comma 6, che richiede la rimozione dei materiali non accettati dal direttore dei lavori.",
+                    "SI: L'affermazione è direttamente supportata dalla risposta e dal contesto: 'Appaltatore ha_obbligo_di_rimuovere Materiali non accettati - [D.Lgs. 50/2016]: Art. 109, comma 6: L'appaltatore deve rimuovere dai magazzini e dai cantieri i materiali non accettati dal direttore dei lavori'."
+                ]
+            ],
+            [
+                [
+                    "Il comma 6 dell'art. 109 del D.Lgs. 50/2016 stabilisce due obblighi principali per l'appaltatore.",
+                    "SI: La risposta afferma che il comma 6 dell'art. 109 del D.Lgs. 50/2016 stabilisce due obblighi principali per l'appaltatore, il che è supportato dal contesto che elenca gli obblighi dell'appaltatore."
+                ],
+                [
+                    "Il primo obbligo è la rimozione dei materiali non accettati dai magazzini e dai cantieri.",
+                    "SI: La risposta afferma che il primo obbligo è la rimozione dei materiali non accettati dai magazzini e dai cantieri, il che è supportato dal contesto che indica 'Appaltatore ha_obbligo_di_rimuovere Materiali non accettati'."
+                ],
+                [
+                    "Il secondo obbligo è la messa a disposizione dei magazzini dalla stazione appaltante.",
+                    "SI: La risposta afferma che il secondo obbligo è la messa a disposizione dei magazzini dalla stazione appaltante, il che è supportato dal contesto che indica 'Appaltatore hanno_obbligo_di_mettere_a_disposizione Magazzini'."
+                ],
+                [
+                    "Queste disposizioni sono direttamente riferite ai materiali non accettati e ai magazzini.",
+                    "SI: La risposta afferma che queste disposizioni sono direttamente riferite ai materiali non accettati e ai magazzini, il che è supportato dal contesto che menziona 'Materiali non accettati' e 'Magazzini'."
+                ],
+                [
+                    "La rimozione è obbligatoria per i materiali non accettati dal direttore dei lavori.",
+                    "SI: La risposta afferma che la rimozione è obbligatoria per i materiali non accettati dal direttore dei lavori, il che è supportato dal contesto che indica 'Materiali non accettati non_accetta Direttore dei lavori'."
+                ],
+                [
+                    "La messa a disposizione dei magazzini è un dovere per garantire l'accesso alla stazione appaltante.",
+                    "SI: La risposta afferma che la messa a disposizione dei magazzini è un dovere per garantire l'accesso alla stazione appaltante, il che è supportato dal contesto che indica 'Magazzini a_disposizione_di Stazione Appaltante'."
+                ]
+            ],
+            [
+                [
+                    "La condizione principale è che l'alimentazione della rete pubblica deve mirare solo a sfruttare economicamente la produzione, come indicato nel D.Lgs. 50/2016.",
+                    "SI: La risposta afferma che \"La condizione principale è che l'alimentazione della rete pubblica deve mirare solo a sfruttare economicamente la produzione, come indicato nel D.Lgs. 50/2016\" e il contesto conferma \"Condizione (alimentazione rete pubblica) mira_a sfruttare economicamente produzione - [D.Lgs. 50/2016]: ii) l'alimentazione della rete pubblica mira solo a sfruttare economicamente tale produzione\"."
+                ],
+                [
+                    "Essa non può superare il 30% della produzione totale di energia dell'ente aggiudicatore, calcolata sulla base della media degli ultimi tre anni.",
+                    "SI: La risposta afferma che \"non può superare il 30% della produzione totale di energia dell'ente aggiudicatore, calcolata sulla base della media degli ultimi tre anni\" e il contesto conferma \"Condizione (alimentazione rete pubblica) non_supera 30% della produzione totale di energia - [D.Lgs. 50/2016]: b) l'alimentazione della rete pubblica dipende solo dal consumo proprio di tale ente aggiudicatore e non supera il 30% della produzione totale di energia di tale ente aggiudicatore, considerando la media degli ultimi tre anni, compreso l'anno in corso;\"."
+                ],
+                [
+                    "Il fatturato di riferimento è calcolato sulla base della media degli ultimi tre anni, compreso l'anno in corso.",
+                    "SI: La risposta afferma che \"Il fatturato di riferimento è calcolato sulla base della media degli ultimi tre anni, compreso l'anno in corso\" e il contesto conferma \"Fatturato (ente aggiudicatore) calcolato_su media ultimi tre anni (incluso anno in corso) - [D.Lgs. 50/2016]: ii) l'alimentazione della rete pubblica mira solo a sfruttare economicamente tale produzione e corrisponde al massimo al 20% del fatturato di tale ente aggiudicatore, considerando la media degli ultimi tre anni, compreso l'anno in corso.\"."
+                ],
+                [
+                    "L'alimentazione non può superare il 20% di tale fatturato.",
+                    "SI: La risposta afferma che \"l'alimentazione non può superare il 20% di tale fatturato\" e il contesto conferma \"Alimentazione rete pubblica corrisponde_al_massimo_a 20% del fatturato ente aggiudicatore - [D.Lgs. 50/2016 (Parte 157/323)]: Art. 115, comma 2, lett. b): e corrisponde al massimo al 20 per cento del fatturato dell'ente aggiudicatore\"."
+                ]
+            ],
+            [
+                [
+                    "La risposta si basa su diversi testi normativi.",
+                    "SI: La risposta afferma esplicitamente di essere basata su diversi testi normativi."
+                ],
+                [
+                    "I testi normativi stabiliscono termini minimi per la ricezione delle domande di partecipazione.",
+                    "SI: La risposta indica che i testi normativi stabiliscono termini minimi per la ricezione delle domande di partecipazione."
+                ],
+                [
+                    "Il D.Lgs. 50/2016 prevede un termine minimo di 30 giorni.",
+                    "SI: La risposta afferma che il D.Lgs. 50/2016 prevede un termine minimo di 30 giorni."
+                ],
+                [
+                    "In alcuni casi specifici, il termine può essere ridotto a 15 giorni.",
+                    "SI: La risposta indica che in alcuni casi specifici il termine può essere ridotto a 15 giorni."
+                ],
+                [
+                    "La riduzione a 15 giorni avviene quando è pubblicato un avviso periodico indicativo e un invito a confermare interesse.",
+                    "SI: La risposta specifica che la riduzione a 15 giorni avviene quando è pubblicato un avviso periodico indicativo e un invito a confermare interesse."
+                ],
+                [
+                    "La Direttiva 2014/24/UE conferma che il termine minimo è di 15 giorni.",
+                    "SI: La risposta afferma che la Direttiva 2014/24/UE conferma che il termine minimo è di 15 giorni."
+                ],
+                [
+                    "Il termine di 15 giorni è dalla data di trasmissione del bando di gara.",
+                    "SI: La risposta specifica che il termine di 15 giorni è dalla data di trasmissione del bando di gara."
+                ],
+                [
+                    "La Direttiva 2014/25/UE stabilisce che il termine minimo per la ricezione delle offerte è di 10 giorni.",
+                    "SI: La risposta afferma che la Direttiva 2014/25/UE stabilisce che il termine minimo per la ricezione delle offerte è di 10 giorni."
+                ],
+                [
+                    "Questa norma si applica alle offerte.",
+                    "SI: La risposta indica che questa norma si applica alle offerte."
+                ],
+                [
+                    "Questa norma non si applica alle domande di partecipazione.",
+                    "SI: La risposta indica che questa norma non si applica alle domande di partecipazione."
+                ],
+                [
+                    "In casi di urgenza, l'amministrazione può ridurre ulteriormente il termine.",
+                    "SI: La risposta afferma che in casi di urgenza l'amministrazione può ridurre ulteriormente il termine."
+                ],
+                [
+                    "Il termine non può essere ridotto sotto i 15 giorni.",
+                    "SI: La risposta specifica che il termine non può essere ridotto sotto i 15 giorni."
+                ]
+            ],
+            [
+                [
+                    "La risposta si basa sull'analisi delle normative e degli allegati relativi alla Direttiva 2014/25/UE.",
+                    "SI: La risposta afferma esplicitamente che si basa sull'analisi delle normative e degli allegati riferiti alla Direttiva 2014/25/UE."
+                ],
+                [
+                    "La Direttiva 2014/25/UE disciplina i concorsi di progettazione.",
+                    "SI: Il contesto indica che la Direttiva 2014/25/UE disciplina i concorsi di progettazione, come evidenziato da più asserti (es. 'ALLEGATO XIX riguarda Informazioni che devono figurare negli avvisi di concorsi di progettazione (di cui all'articolo 96, paragrafo 1) - Direttiva 2014/25/UE')."
+                ],
+                [
+                    "Le informazioni richieste sono estratte da fonti legali e allegati specifici.",
+                    "SI: La risposta afferma che le informazioni sono estratte da fonti legali e allegati specifici."
+                ],
+                [
+                    "L'Allegato V della Direttiva 2014/24/UE è un allegato specifico.",
+                    "SI: La risposta menziona esplicitamente l'Allegato V della Direttiva 2014/24/UE come allegato specifico."
+                ],
+                [
+                    "L'Allegato V della Direttiva 2014/24/UE è riferito all'Articolo 75, paragrafo 1.",
+                    "NO: Il contesto indica che la Parte I dell'Allegato V della Direttiva 2014/24/UE è riferita all'Articolo 75, paragrafo 1, ma non l'intero Allegato V. L'Allegato V contiene diverse parti (A, B, C, D, E, F, H, I, J) che si riferiscono a diversi articoli o tipi di avvisi."
+                ],
+                [
+                    "Le informazioni elencate riflettono le obbligazioni degli enti aggiudicatori.",
+                    "SI: La risposta afferma che le informazioni elencate riflettono le obbligazioni degli enti aggiudicatori, e il contesto fornisce numerosi esempi di tali obbligazioni (es. 'Ente aggiudicatore ha_obbligo_di_indicare Rendere nota intenzione di indire concorso di progettazione - Direttiva 2014/25/UE (Parte 173/232)')."
+                ],
+                [
+                    "Le informazioni elencate riflettono le condizioni di partecipazione per i concorsi di progettazione.",
+                    "SI: La risposta afferma che le informazioni elencate riflettono le condizioni di partecipazione per i concorsi di progettazione, e il contesto fornisce esempi di tali condizioni (es. 'Avvisi di concorsi di progettazione contiene_informazioni_di Indicazione se la partecipazione è riservata a una particolare professione - [Direttiva 2014/25/UE]')."
+                ],
+                [
+                    "Le obbligazioni degli enti aggiudicatori sono indicate in diversi paragrafi e allegati.",
+                    "SI: La risposta afferma che le obbligazioni degli enti aggiudicatori sono indicate in diversi paragrafi e allegati, il che è supportato dalla molteplicità di asserti nel contesto che descrivono tali obbligazioni."
+                ],
+                [
+                    "Le condizioni di partecipazione per i concorsi di progettazione sono indicate in diversi paragrafi e allegati.",
+                    "SI: La risposta afferma che le condizioni di partecipazione per i concorsi di progettazione sono indicate in diversi paragrafi e allegati, il che è supportato dalla molteplicità di asserti nel contesto che descrivono tali condizioni."
+                ]
+            ],
+            [
+                [
+                    "La risposta si basa sull'articolo 40 della Direttiva 2014/24/UE.",
+                    "NO: Il contesto non menziona l'articolo 40 della Direttiva 2014/24/UE in relazione alla facoltà di riservare la partecipazione a imprese sociali. L'articolo 40 non è presente nel contesto."
+                ],
+                [
+                    "L'articolo 40 della Direttiva 2014/24/UE conferisce agli Stati membri la facoltà di riservare la partecipazione alle procedure di aggiudicazione a imprese sociali.",
+                    "NO: Il contesto non menziona l'articolo 40 della Direttiva 2014/24/UE in relazione alla facoltà di riservare la partecipazione a imprese sociali. Il contesto indica che gli Stati membri possono riservare la partecipazione a laboratori protetti e operatori economici il cui scopo principale è l'integrazione sociale e professionale di persone con disabilità o svantaggiate, ma non specifica l'articolo 40."
+                ],
+                [
+                    "Questo è un elemento chiave del contesto in cui gli Stati membri possono limitare la partecipazione a determinate imprese.",
+                    "SI: Il contesto indica che gli Stati membri possono riservare la partecipazione a determinate imprese (laboratori protetti e imprese sociali), il che è coerente con l'affermazione che si tratta di un elemento chiave del contesto in cui gli Stati membri possono limitare la partecipazione a determinate imprese."
+                ],
+                [
+                    "La limitazione della partecipazione a determinate imprese deve avvenire nel rispetto delle norme comunitarie.",
+                    "SI: Il contesto afferma che la riserva del diritto di partecipazione deve avvenire \"nel rispetto del diritto dell'Unione\", il che è coerente con l'affermazione che la limitazione della partecipazione deve avvenire nel rispetto delle norme comunitarie."
+                ]
+            ],
+            [
+                [
+                    "L'attestazione di cui all'articolo 106, comma 1, è rilasciata dal direttore dei lavori.",
+                    "SI: L'affermazione è esplicitamente dichiarata nella Risposta: \"Il contesto indica che l'attestazione di cui all'articolo 106, comma 1, è rilasciata dal direttore dei lavori (Fonte: [dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014]: Art. 54, comma 7)\"."
+                ],
+                [
+                    "Il rapporto conclusivo del soggetto preposto alla verifica accerta l'avvenuto rilascio dell'attestazione da parte del direttore dei lavori.",
+                    "SI: L'affermazione è esplicitamente dichiarata nella Risposta: \"Il rapporto conclusivo del soggetto preposto alla verifica accerta l'avvenuto rilascio da parte del direttore dei lavori (Fonte: [dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014]: Art. 54, comma 7)\"."
+                ]
+            ]
+        ],
+        "answer_accuracy_explanations": [
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica la NACE 11.20, mentre la risposta generata indica la NACE 74.20.",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica che la classe NACE 45.12 non comprende le prospezioni di giacimenti di petrolio e di gas, classificate nella NACE 74.20. La risposta generata indica che la NACE 45.12 esclude la 'trivellazione di pozzi di produzione di petrolio e di gas', classificata nella NACE 11.20."
+            },
+            {
+                "response1": "Score 2: La risposta generata è parzialmente allineata alla ground truth. La ground truth si concentra solo sull'obbligo di mettere a disposizione i magazzini, mentre la risposta generata aggiunge anche l'obbligo di rimuovere i materiali non accettati, che non era l'oggetto della domanda.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth, ma omette l'obbligo di rimuovere i materiali non accettati dai magazzini."
+            },
+            {
+                "response1": "Score 2: La risposta generata è parzialmente allineata alla ground truth. La ground truth specifica che i materiali non accettati provengono dai magazzini, mentre la risposta generata aggiunge \"e dai cantieri\", che non è presente nella ground truth. Inoltre, la ground truth specifica \"Magazzini a_disposizione_di Stazione Appaltante\", mentre la risposta generata dice \"messa a disposizione dei magazzini dalla stazione appaltante\", che è meno precisa.",
+                "response2": "Score 4: La risposta generata è esattamente allineata alla ground truth, specificando correttamente i due obblighi dell'Art. 109, comma 6 del D.Lgs. 50/2016."
+            },
+            {
+                "response1": "Score 2: La risposta generata è parzialmente allineata alla ground truth. Menziona correttamente lo scopo e il calcolo del fatturato di riferimento, ma introduce un limite del 30% sulla produzione totale di energia che non è presente nella ground truth e non è rilevante per la domanda sul fatturato.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth. Menziona lo scopo e il limite finanziario del 20% del fatturato, ma omette il limite del 30% della produzione totale di energia e la base di calcolo del fatturato di riferimento."
+            },
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica un termine minimo di 30 giorni, mentre la risposta generata indica 15 giorni come termine minimo e menziona altre direttive non presenti nella ground truth.",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica un termine minimo di 30 giorni, ma anche la possibilità di ridurlo a 15 giorni in casi specifici, e menziona un termine di 10 giorni per le offerte. La risposta generata afferma che entrambi i testi normativi concordano su 30 giorni, il che è inaccurato rispetto alla ground truth."
+            },
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth specifica l'Allegato XIX della Direttiva 2014/25/UE e la sua corrispondenza con l'Allegato XVIII della Direttiva 2004/17/CE, mentre la risposta generata fa riferimento all'Allegato V della Direttiva 2014/24/UE, che è una direttiva diversa e un allegato non pertinente alla domanda.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth. La ground truth afferma che le informazioni sono estratte dall'Allegato V della Direttiva 2014/24/UE, mentre la risposta generata indica l'Allegato XIX della Direttiva 2014/25/UE e la sua corrispondenza con l'Allegato XVIII della Direttiva 2004/17/CE. Sebbene entrambe le risposte facciano riferimento a direttive e allegati, non c'è una corrispondenza esatta nelle citazioni specifiche."
+            },
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth fa riferimento alla Parte 76/238 e ai programmi di lavoro protetti, mentre la risposta generata cita l'articolo 40 e le imprese sociali.",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth si riferisce all'articolo 40 della Direttiva 2014/24/UE e alle imprese sociali, mentre la risposta generata menziona la Parte 76/238 e i programmi di lavoro protetti, che non sono allineati."
+            },
+            {
+                "response1": "Score 4: La risposta generata è completamente allineata alla ground truth, fornendo le stesse informazioni e citando la stessa fonte normativa.",
+                "response2": "Score 4: La risposta generata è completamente allineata alla ground truth, fornendo le stesse informazioni e citando la stessa fonte."
+            }
+        ]
+    },
+    "isolated": {
+        "avg_context_faithfulness": 0.6268939393939394,
+        "avg_analysis_faithfulness": 0.8624999999999999,
+        "avg_answer_accuracy": 0.53125,
+        "context_faithfulness_explanations": [
+            [
+                [
+                    "La 'Soglia indicata in Articolo 15, lettera c) della Direttiva 2014/25/UE' è identificata come la soglia minima di importo che deve essere rispettata per l'applicazione della direttiva.",
+                    "SI: Il contesto afferma che la Direttiva 2014/25/UE si applica agli appalti il cui valore netto dell'IVA è pari o superiore alle soglie, e specifica 'Soglia indicata_in Articolo 15, lettera c) (Direttiva 2014/25/UE) - [Direttiva 2014/25/UE]: soglia indicata all'articolo 15, lettera c)'."
+                ],
+                [
+                    "Questa soglia è definita nel paragrafo 1 dell'articolo 15, lettera c) della direttiva, che specifica l'importo minimo per cui la direttiva si applica.",
+                    "NO: Il contesto menziona 'Soglia indicata_in Articolo 15, lettera c) (Direttiva 2014/25/UE)' e 'Articolo 15: Soglie', ma non specifica che questa soglia sia definita nel 'paragrafo 1 dell'articolo 15, lettera c)'."
+                ],
+                [
+                    "Inoltre, la direttiva richiede che le soglie siano pubblicate dalla Commissione Europea, come indicato nel paragrafo 1 della direttiva 2014/24/UE, e che siano disponibili in valuta nazionale e in euro, come stabilito nel paragrafo 3, primo comma, della stessa direttiva.",
+                    "NO: Il contesto afferma che la Commissione pubblica le soglie rivedute e il loro controvalore nelle valute nazionali, ma non fa riferimento al 'paragrafo 1 della direttiva 2014/24/UE' o al 'paragrafo 3, primo comma, della stessa direttiva' per la pubblicazione delle soglie della Direttiva 2014/25/UE. Le informazioni fornite si riferiscono alla Direttiva 2014/25/UE, non alla 2014/24/UE per la pubblicazione delle soglie."
+                ]
+            ],
+            [
+                [
+                    "Un sistema interno di controllo di qualità deve essere coerente con i requisiti della norma UNI EN ISO 9001.",
+                    "SI: Il contesto afferma che il Sistema interno di controllo di qualità (Verifica progetti >= soglia art. 28, c. 1, lett. c) deve essere coerente con UNI EN ISO 9001."
+                ],
+                [
+                    "Il sistema deve soddisfare gli standard stabiliti dalla norma UNI EN ISO 9001.",
+                    "SI: Il contesto afferma che il Sistema interno di controllo di qualità (Verifica progetti >= soglia art. 28, c. 1, lett. c) deve essere coerente con UNI EN ISO 9001, implicando che debba soddisfare tali standard."
+                ],
+                [
+                    "Gli standard della norma UNI EN ISO 9001 riguardano la gestione della qualità.",
+                    "NO: Il contesto non fornisce informazioni specifiche su cosa riguardino gli standard della norma UNI EN ISO 9001, oltre alla loro coerenza con il sistema di controllo qualità."
+                ],
+                [
+                    "Gli standard della norma UNI EN ISO 9001 riguardano la gestione dei processi.",
+                    "NO: Il contesto non fornisce informazioni specifiche su cosa riguardino gli standard della norma UNI EN ISO 9001, oltre alla loro coerenza con il sistema di controllo qualità."
+                ],
+                [
+                    "Gli standard della norma UNI EN ISO 9001 riguardano la gestione dei rischi.",
+                    "NO: Il contesto non fornisce informazioni specifiche su cosa riguardino gli standard della norma UNI EN ISO 9001, oltre alla loro coerenza con il sistema di controllo qualità."
+                ],
+                [
+                    "Gli standard della norma UNI EN ISO 9001 riguardano la gestione delle risorse.",
+                    "NO: Il contesto non fornisce informazioni specifiche su cosa riguardino gli standard della norma UNI EN ISO 9001, oltre alla loro coerenza con il sistema di controllo qualità."
+                ],
+                [
+                    "Gli standard della norma UNI EN ISO 9001 riguardano la gestione delle informazioni.",
+                    "NO: Il contesto non fornisce informazioni specifiche su cosa riguardino gli standard della norma UNI EN ISO 9001, oltre alla loro coerenza con il sistema di controllo qualità."
+                ],
+                [
+                    "Gli standard della norma UNI EN ISO 9001 riguardano la gestione dei processi di controllo.",
+                    "NO: Il contesto non fornisce informazioni specifiche su cosa riguardino gli standard della norma UNI EN ISO 9001, oltre alla loro coerenza con il sistema di controllo qualità."
+                ],
+                [
+                    "Il sistema deve essere documentato.",
+                    "NO: Il contesto menziona che un sistema di controllo è formalizzato attraverso procedure operative e manuali d'uso, ma non afferma esplicitamente che il sistema debba essere documentato in generale."
+                ],
+                [
+                    "Il sistema deve essere implementato in modo da garantire la conformità ai requisiti del settore.",
+                    "NO: Il contesto non fornisce informazioni sul fatto che il sistema debba garantire la conformità ai requisiti del settore."
+                ],
+                [
+                    "Il sistema deve essere implementato in modo da garantire la conformità alle normative vigenti.",
+                    "NO: Il contesto non fornisce informazioni sul fatto che il sistema debba garantire la conformità alle normative vigenti."
+                ]
+            ],
+            [
+                [
+                    "La concessione di autorizzazioni relative ai servizi postali si basa sulla conformità alle procedure dell'articolo 9 della direttiva 97/67/CE, come indicato nel contesto.",
+                    "SI: Il contesto afferma più volte che \"la concessione di autorizzazioni, conformemente alle procedure di cui all'articolo 9 della direttiva 97/67/CE, in relazione a servizi postali che non sono ne' possono essere riservati;\" o simili."
+                ],
+                [
+                    "Le norme sull'aggiudicazione delle concessioni si applicano al settore dei servizi postali, come stabilito nella direttiva 2014/23/UE.",
+                    "SI: Il contesto afferma che \"nell'applicazione delle norme sull'aggiudicazione delle concessioni nei settori dell'energia, dei trasporti e dei servizi postali\" e \"Aggiudicazione concessioni di lavori e servizi riguardano_settore settore servizi postali - [Direttiva 2014/23/UE]: e postali\"."
+                ]
+            ],
+            [
+                [
+                    "La percentuale di applicazione dell'indice per i trattamenti pensionistici che superano di cinque volte il trattamento minimo INPS, secondo la Legge 23 Dicembre 2000 n.388, è del 75%.",
+                    "SI: Il contesto afferma esplicitamente: \"75% (misura applicazione indice) per Trattamenti pensionistici superiori a 5 volte trattamento minimo INPS - [L. 23 Dicembre 2000 n.388 (Finanziaria 2001)]: nella misura del 75 per cento per le fasce di importo dei tratt stici superiori a amenti pensioni cinque volte il predetto trattamento minimo.\""
+                ]
+            ],
+            [
+                [
+                    "Il requisito di conformità per le norme interne rispetto al Diritto dell'Unione è che tali norme, nonché la loro applicazione, devono essere conformi al diritto dell'Unione.",
+                    "SI: Il contesto afferma più volte che \"purché tali norme, nonché la loro applicazione, siano conformi al diritto dell'Unione.\""
+                ],
+                [
+                    "Questo è stabilito in diverse direttive, tra cui la Direttiva 2014/24/UE e la Direttiva 2014/25/UE, che richiedono che le norme nazionali rispettino gli obblighi del diritto dell'Unione.",
+                    "SI: Il contesto menziona esplicitamente la Direttiva 2014/24/UE e la Direttiva 2014/25/UE come fonti che richiedono la conformità delle norme e della loro applicazione al diritto dell'Unione."
+                ]
+            ],
+            [
+                [
+                    "Secondo il contesto fornito, le coperture classificate come 'Coperture speciali' includono tensostrutture.",
+                    "SI: Il contesto afferma esplicitamente che le tensostrutture sono un tipo di Coperture speciali."
+                ],
+                [
+                    "Secondo il contesto fornito, le coperture classificate come 'Coperture speciali' includono coperture geodetiche.",
+                    "SI: Il contesto afferma esplicitamente che le coperture geodetiche sono un tipo di Coperture speciali."
+                ],
+                [
+                    "Secondo il contesto fornito, le coperture classificate come 'Coperture speciali' includono coperture copri-scopri.",
+                    "SI: Il contesto afferma esplicitamente che le coperture copri-scopri sono un tipo di Coperture speciali."
+                ],
+                [
+                    "Secondo il contesto fornito, le coperture classificate come 'Coperture speciali' includono coperture pannellate.",
+                    "SI: Il contesto afferma esplicitamente che le coperture pannellate sono un tipo di Coperture speciali."
+                ],
+                [
+                    "Secondo il contesto fornito, le coperture classificate come 'Coperture speciali' includono coperture speciali in generale.",
+                    "NO: L'affermazione è tautologica e non aggiunge informazione specifica sui tipi di coperture speciali, ma ripete la categoria stessa."
+                ],
+                [
+                    "Le categorie di coperture speciali sono definite nell'ordinanza 33 del dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014.",
+                    "SI: Il contesto afferma che 'OS 33 definisce_categoria Coperture speciali - [dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014]: OS 33: COPERTURE SPECIALI'."
+                ]
+            ],
+            [
+                [
+                    "La procedura attivata nel caso di decadenza dell'attestazione di un esecutore è quella indicata nell'articolo 135, comma 1-bis, del codice.",
+                    "SI: Il contesto afferma esplicitamente: 'Ove sia intervenuta la decadenza dell'attestazione dell'esecutore, si procede ai sensi dell'articolo 135, comma 1-bis, del codice'."
+                ],
+                [
+                    "La procedura attivata nel caso di decadenza dell'attestazione di un esecutore è stabilita nel dpr 5 ottobre 2010_207_agg_dm_infrastrutture_24apr2014.",
+                    "NO: Il contesto indica che la procedura è ai sensi dell'articolo 135, comma 1-bis, del codice, ma non afferma che l'intera procedura sia stabilita nel dpr 5 ottobre 2010_207_agg_dm_infrastrutture_24apr2014."
+                ],
+                [
+                    "Questa norma disciplina la procedura da seguire in caso di decadenza dell'attestazione dell'esecutore.",
+                    "SI: Il contesto indica che 'Ove sia intervenuta la decadenza dell'attestazione dell'esecutore, si procede ai sensi dell'articolo 135, comma 1-bis, del codice', il che implica che la norma disciplina la procedura da seguire in tale caso."
+                ]
+            ],
+            [
+                [
+                    "Il primo comma dell'articolo 75 della Direttiva 2014/24/UE non trova applicazione quando l'aggiudicazione è effettuata in base a una procedura di cui all'articolo 7, paragrafo 1, della stessa Direttiva.",
+                    "NO: Il contesto afferma che il primo comma dell'articolo 75 della Direttiva 2014/24/UE non si applica quando una procedura negoziata senza previa pubblicazione potrebbe essere stata utilizzata conformemente all'articolo 32, non all'articolo 7, paragrafo 1."
+                ],
+                [
+                    "Questo è indicato nel testo della Direttiva, dove si specifica che gli avvisi di cui all'articolo 75 sono pubblicati conformemente all'articolo 51, ma non si applicano quando la procedura è quella prevista dall'articolo 7, paragrafo 1.",
+                    "NO: Il contesto afferma che gli avvisi di cui all'articolo 75 sono pubblicati conformemente all'articolo 51, ma non menziona alcuna eccezione all'applicazione del primo comma dell'articolo 75 basata sull'articolo 7, paragrafo 1."
+                ]
+            ]
+        ],
+        "analysis_faithfulness_explanations": [
+            [
+                [
+                    "La risposta si basa sull'analisi del testo della Direttiva 2014/25/UE e delle sue relazioni con la Direttiva 2014/24/UE.",
+                    "SI: L'analisi è coerente con la domanda e il contesto fornito."
+                ],
+                [
+                    "La 'Soglia indicata in Articolo 15, lettera c)' è definita nel paragrafo 1 dell'articolo 15, lettera c) della direttiva 2014/25/UE.",
+                    "SI: Il contesto indica che la 'Soglia indicata_in Articolo 15, lettera c) (Direttiva 2014/25/UE) - [Direttiva 2014/25/UE]: soglia indicata all'articolo 15, lettera c)'."
+                ],
+                [
+                    "La direttiva richiede che le soglie siano pubblicate dalla Commissione Europea, come indicato nel paragrafo 1 della direttiva 2014/24/UE.",
+                    "NO: Il contesto indica che la Commissione pubblica le soglie rivedute della Direttiva 2014/25/UE, ma non specifica che ciò sia indicato nel paragrafo 1 della Direttiva 2014/24/UE. Il contesto per la Direttiva 2014/24/UE menziona la pubblicazione delle soglie rivedute, ma non fa riferimento al paragrafo 1."
+                ],
+                [
+                    "Le soglie devono essere disponibili in valuta nazionale e in euro, come stabilito nel paragrafo 3, primo comma, della stessa direttiva.",
+                    "NO: Il contesto indica che la Commissione determina i valori delle soglie della Direttiva 2014/25/UE nelle valute nazionali e che le soglie rivedute della Direttiva 2014/24/UE sono pubblicate con il loro controvalore nelle valute nazionali, ma non specifica che ciò sia stabilito nel paragrafo 3, primo comma, della Direttiva 2014/24/UE."
+                ]
+            ],
+            [
+                [
+                    "La risposta si basa sull'articolo 47, comma 3, lettera b) del dPR 5 ottobre 2010.",
+                    "NO: La risposta si basa sull'articolo 47, comma 3, lettera b) del dPR 5 ottobre 2010, ma il contesto indica che l'articolo 47, comma 3, lettera b) definisce il sistema interno di controllo di qualità come un \"sistema di controllo, formalizzato attraverso procedure operative e manuali d'uso\", mentre la coerenza con la norma UNI EN ISO 9001 è specificata nell'articolo 47, comma 3, lettera a)."
+                ],
+                [
+                    "L'articolo richiede che il sistema interno di controllo di qualità sia coerente con i requisiti della norma UNI EN ISO 9001.",
+                    "SI: Il contesto afferma che il \"Sistema interno di controllo di qualità (Verifica progetti >= soglia art. 28, c. 1, lett. c) deve_essere_coerente_con UNI EN ISO 9001 - [dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014]: Art. 47, comma 3, lettera a): ...un sistema coerente con i requisiti della norma UNI EN ISO 9001;'."
+                ],
+                [
+                    "Questo articolo è stato citato in diversi punti del testo fornito.",
+                    "SI: La risposta afferma che l'articolo è stato citato in diversi punti del testo fornito, e il contesto mostra più riferimenti all'articolo 47, comma 3."
+                ],
+                [
+                    "Un esempio è il paragrafo che descrive il sistema interno di controllo di qualità dimostrato attraverso la certificazione di conformità alla norma UNI EN ISO 9001.",
+                    "SI: Il contesto include la frase \"Sistema interno di controllo di qualità dimostrata_a Certificazione di conformità UNI EN ISO 9001 - [dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014]: Art. 48, comma 1, lettera b), punto 2): ...dimostrato attraverso il possesso della certificazione di conformità alla norma UNI EN ISO 9001...\"."
+                ],
+                [
+                    "La risposta deve riflettere la conformità al requisito specificato nell'articolo.",
+                    "SI: La risposta afferma che la risposta deve riflettere la conformità al requisito specificato nell'articolo, il che è una conclusione logica basata sulla premessa."
+                ]
+            ],
+            [
+                [
+                    "La concessione di autorizzazioni per servizi postali deve avvenire in conformità alle procedure dell'articolo 9 della direttiva 97/67/CE.",
+                    "SI: La risposta afferma esplicitamente che \"la concessione di autorizzazioni per servizi postali deve avvenire in conformità alle procedure dell'articolo 9 della direttiva 97/67/CE\"."
+                ],
+                [
+                    "Le norme sull'aggiudicazione delle concessioni si applicano al settore dei servizi postali.",
+                    "SI: La risposta afferma esplicitamente che \"le norme sull'aggiudicazione delle concessioni si applicano al settore dei servizi postali\"."
+                ],
+                [
+                    "Le norme sull'aggiudicazione delle concessioni sono indicate nella direttiva 2014/23/UE.",
+                    "SI: La risposta afferma esplicitamente che le norme sull'aggiudicazione delle concessioni sono \"come indicato nella direttiva 2014/23/UE\"."
+                ],
+                [
+                    "Queste norme disciplinano le condizioni per l'aggiudicazione delle concessioni in relazione a servizi postali non riservati.",
+                    "SI: La risposta afferma esplicitamente che \"Queste norme disciplinano le condizioni per l'aggiudicazione delle concessioni in relazione a servizi postali non riservati\"."
+                ]
+            ],
+            [
+                [
+                    "Secondo la Legge 23 Dicembre 2000 n.388, la percentuale di applicazione dell'indice per i trattamenti pensionistici che superano di cinque volte il trattamento minimo INPS è del 75%.",
+                    "SI: L'affermazione è direttamente supportata dal contesto: '75% (misura applicazione indice) per Trattamenti pensionistici superiori a 5 volte trattamento minimo INPS - [L. 23 Dicembre 2000 n.388 (Finanziaria 2001)]: nella misura del 75 per cento per le fasce di importo dei tratt stici superiori a amenti pensioni cinque volte il predetto trattamento minimo.'"
+                ],
+                [
+                    "Questo è specificato nel testo della legge, che indica che per le fasce di importo dei trattamenti pensionistici superiori a cinque volte il trattamento minimo INPS, la misura applicazione indice è del 75%.",
+                    "SI: L'affermazione è direttamente supportata dal contesto: '75% (misura applicazione indice) per Trattamenti pensionistici superiori a 5 volte trattamento minimo INPS - [L. 23 Dicembre 2000 n.388 (Finanziaria 2001)]: nella misura del 75 per cento per le fasce di importo dei tratt stici superiori a amenti pensioni cinque volte il predetto trattamento minimo.'"
+                ]
+            ],
+            [
+                [
+                    "Le norme interne (leggi, regolamenti, decreti, contratti collettivi) devono essere conformi al diritto dell'Unione.",
+                    "SI: La risposta afferma che le norme interne devono essere conformi al diritto dell'Unione, come indicato nel contesto."
+                ],
+                [
+                    "Questo è espresso in diverse direttive, tra cui la Direttiva 2014/24/UE e la Direttiva 2014/25/UE.",
+                    "SI: La risposta specifica che questa conformità è espressa in diverse direttive, inclusa la 2014/24/UE e la 2014/25/UE, come riportato nel contesto."
+                ],
+                [
+                    "Le direttive 2014/24/UE e 2014/25/UE richiedono che le norme, nonché la loro applicazione, siano conformi al diritto dell'Unione.",
+                    "SI: La risposta indica che le direttive 2014/24/UE e 2014/25/UE richiedono che le norme e la loro applicazione siano conformi al diritto dell'Unione, come esplicitamente dichiarato nel contesto."
+                ],
+                [
+                    "La Direttiva 2014/23/UE conferma questa richiesta.",
+                    "SI: La risposta afferma che la Direttiva 2014/23/UE conferma questa richiesta, come supportato dal contesto."
+                ],
+                [
+                    "La Direttiva 2014/23/UE specifica che i contratti collettivi devono essere applicati in conformità del diritto dell'Unione.",
+                    "SI: La risposta specifica che la Direttiva 2014/23/UE richiede che i contratti collettivi siano applicati in conformità del diritto dell'Unione, come indicato nel contesto."
+                ],
+                [
+                    "La conformità è un requisito fondamentale per le norme interne, come indicato in vari testi normativi.",
+                    "SI: La risposta conclude che la conformità è un requisito fondamentale per le norme interne, come indicato in vari testi normativi, riassumendo le informazioni presenti nel contesto."
+                ]
+            ],
+            [
+                [
+                    "Il contesto specifica che 'Coperture speciali' è una categoria definita dall'ordinanza 33 del dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014.",
+                    "SI: Il contesto afferma che \"OS 33 definisce_categoria Coperture speciali - [dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014]: OS 33: COPERTURE SPECIALI\"."
+                ],
+                [
+                    "Le sottocategorie elencate sono tutte tipi di coperture speciali, come indicato dalle relazioni 'è_tipo_di' tra queste entità e 'Coperture speciali'.",
+                    "SI: Il contesto elenca diverse tipologie di coperture (Tensostrutture, Coperture geodetiche, Coperture copri-scopri, Coperture pannellate) e per ognuna specifica che \"è_tipo_di Coperture speciali\"."
+                ]
+            ],
+            [
+                [
+                    "La domanda riguarda la procedura attivata in seguito alla decadenza dell'attestazione di un esecutore.",
+                    "SI: L'affermazione è supportata dalla prima frase della risposta."
+                ],
+                [
+                    "Il contesto indica che, in caso di decadenza dell'attestazione dell'esecutore, si procede ai sensi dell'articolo 135, comma 1-bis, del codice, come specificato nel dpr 5 ottobre 2010_207_agg_dm_infrastrutture_24apr2014.",
+                    "SI: L'affermazione è supportata dalla seconda frase della risposta e dal contesto: 'Decadenza attestazione esecutore comporta_procedura_ai_sensi_di Articolo 135, comma 1-bis (Codice) - [dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014]: Ove sia intervenuta la decadenza dell'attestazione dell'esecutore, si procede ai sensi dell'articolo 135, comma 1-bis, del codice'."
+                ],
+                [
+                    "Questo articolo disciplina la procedura da seguire in caso di decadenza dell'attestazione dell'esecutore.",
+                    "SI: L'affermazione è supportata dalla terza frase della risposta."
+                ],
+                [
+                    "Inoltre, il contesto menziona che l'articolo 98 del dpr 207/2010 disciplina il procedimento per il rilascio e la decadenza dell'attestazione, ma non è chiaro se questa norma sia riferita alla stessa procedura o a una procedura diversa.",
+                    "SI: L'affermazione è supportata dalla quarta frase della risposta e dal contesto: 'Articolo 98 (DPR 207/2010) disciplina Procedimento per il rilascio e la decadenza dell'attestazione - [dPR 5 ottobre 2010_207_agg_DM_infrastrutture_24apr2014]: Art. 98. Procedimento per il rilascio e la decadenza dell'attestazione (art. 3, d.m. 27 maggio 2005)'."
+                ],
+                [
+                    "In ogni caso, il testo specifico del contesto indica che la procedura da attivare è quella indicata nell'articolo 135, comma 1-bis, del codice.",
+                    "SI: L'affermazione è supportata dall'ultima frase della risposta."
+                ]
+            ],
+            [
+                [
+                    "La risposta si basa sull'analisi del testo della Direttiva 2014/24/UE.",
+                    "SI: La risposta afferma esplicitamente di essere basata sull'analisi del testo della Direttiva 2014/24/UE."
+                ],
+                [
+                    "La risposta si basa in particolare sulle disposizioni relative all'articolo 75 e all'articolo 7, paragrafo 1.",
+                    "SI: La risposta indica chiaramente che si basa sulle disposizioni relative all'articolo 75 e all'articolo 7, paragrafo 1."
+                ],
+                [
+                    "La Direttiva stabilisce che gli avvisi di cui all'articolo 75 sono pubblicati conformemente all'articolo 51.",
+                    "SI: Il contesto e la risposta affermano che gli avvisi di cui all'articolo 75 sono pubblicati conformemente all'articolo 51."
+                ],
+                [
+                    "Gli avvisi di cui all'articolo 75 non si applicano quando l'aggiudicazione è effettuata in base a una procedura di cui all'articolo 7, paragrafo 1.",
+                    "NO: La risposta afferma che gli avvisi di cui all'articolo 75 non si applicano quando l'aggiudicazione è effettuata in base a una procedura di cui all'articolo 7, paragrafo 1, ma il contesto non supporta questa affermazione. Il contesto indica che il primo comma dell'articolo 75 non si applica quando una procedura negoziata senza previa pubblicazione potrebbe essere stata utilizzata conformemente all'articolo 32 per l'aggiudicazione di appalti pubblici di servizi, non in base all'articolo 7, paragrafo 1."
+                ],
+                [
+                    "Il primo comma dell'articolo 75 non è applicabile in quei casi in cui la procedura di aggiudicazione è quella specificata nell'articolo 7, paragrafo 1.",
+                    "NO: La risposta afferma che il primo comma dell'articolo 75 non è applicabile in quei casi in cui la procedura di aggiudicazione è quella specificata nell'articolo 7, paragrafo 1, ma il contesto non supporta questa affermazione. Il contesto indica che il primo comma dell'articolo 75 non si applica quando una procedura negoziata senza previa pubblicazione potrebbe essere stata utilizzata conformemente all'articolo 32 per l'aggiudicazione di appalti pubblici di servizi, non in base all'articolo 7, paragrafo 1."
+                ]
+            ]
+        ],
+        "answer_accuracy_explanations": [
+            {
+                "response1": "Score 2: La risposta generata è parzialmente allineata alla ground truth. La ground truth afferma che il frammento stesso costituisce la definizione del termine, mentre la risposta generata fornisce dettagli aggiuntivi non presenti nella ground truth.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth, ma non include tutti i dettagli forniti dalla ground truth riguardo alla pubblicazione delle soglie e alla loro disponibilità in valuta nazionale e in euro."
+            },
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth specifica che la formalizzazione avviene 'attraverso procedure operative e manuali d'uso', mentre la risposta generata si concentra sulla coerenza con la norma UNI EN ISO 9001, che non è la modalità di formalizzazione richiesta dalla domanda.",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica che il sistema deve essere coerente con la norma UNI EN ISO 9001, mentre la risposta generata parla di procedure operative e manuali d'uso."
+            },
+            {
+                "response1": "Score 4: La risposta generata è allineata alla ground truth, menzionando le direttive e le condizioni per i servizi postali non riservati.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth. Menziona l'articolo 9 della direttiva 97/67/CE e i servizi postali non riservati, ma non fa riferimento esplicito all'applicazione delle norme sull'aggiudicazione delle concessioni al settore dei servizi postali come indicato nella direttiva 2014/23/UE."
+            },
+            {
+                "response1": "Score 4: La risposta generata è esattamente allineata alla ground truth, fornendo la stessa percentuale e la stessa legge di riferimento.",
+                "response2": "Score 4: La risposta generata è completamente allineata alla ground truth, fornendo la percentuale corretta e la legge di riferimento."
+            },
+            {
+                "response1": "Score 2: La risposta generata è parzialmente allineata alla ground truth. Menziona la conformità delle norme interne al diritto dell'Unione e la Direttiva 2014/24/UE, ma aggiunge direttive (2014/25/UE e 2014/23/UE) non presenti nella ground truth e non enfatizza la conformità sia nel testo che nell'applicazione pratica come punto cruciale.",
+                "response2": "Score 4: La risposta generata è completamente allineata alla ground truth, specificando il requisito di conformità delle norme interne al Diritto dell'Unione e citando la Direttiva 2014/24/UE come esempio."
+            },
+            {
+                "response1": "Score 0: La risposta generata non elenca i tipi di coperture speciali come richiesto dalla ground truth, ma si concentra sulla definizione della categoria.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth. La ground truth afferma che tutte le sottocategorie elencate sono tipi di coperture speciali, mentre la risposta generata ne menziona solo alcune."
+            },
+            {
+                "response1": "Score 4: La risposta generata è allineata alla ground truth, identificando correttamente la procedura e la fonte normativa.",
+                "response2": "Score 4: La risposta generata è allineata alla ground truth, identificando correttamente la procedura e la normativa di riferimento."
+            },
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth fa riferimento all'Articolo 32 e alla procedura negoziata senza previa pubblicazione, mentre la risposta generata fa riferimento all'Articolo 7, paragrafo 1.",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth indica l'articolo 7, paragrafo 1, mentre la risposta generata indica l'articolo 32."
+            }
+        ]
+    },
+    "hubs": {
+        "avg_context_faithfulness": 0.5651958421695265,
+        "avg_analysis_faithfulness": 0.8435897435897437,
+        "avg_answer_accuracy": 0.3333333333333333,
+        "context_faithfulness_explanations": [
+            [
+                [
+                    "Le principali facoltà e obblighi di un'Amministrazione Aggiudicatrice in relazione alla gestione delle procedure di gara e dei contratti, secondo le direttive europee e il D.Lgs. 50/2016, sono i seguenti.",
+                    "NO: L'affermazione introduce un riassunto generale non esplicitamente presente nel contesto, che si limita a elencare singole facoltà e obblighi senza una sintesi complessiva."
+                ],
+                [
+                    "Le amministrazioni aggiudicatrici possono scegliere di aggiudicare contratti distinti per le diverse parti del progetto.",
+                    "SI: Il contesto afferma esplicitamente che \"le amministrazioni aggiudicatrici o gli enti aggiudicatori possono scegliere di aggiudicare contratti distinti per le parti distinte\"."
+                ],
+                [
+                    "Le amministrazioni aggiudicatrici possono concludere accordi quadro con più operatori economici, permettendo di ottenere lavori, servizi o forniture specifici in base a criteri oggettivi.",
+                    "SI: Il contesto indica che \"Le amministrazioni aggiudicatrici dovrebbero beneficiare di una maggiore flessibilità quando aggiudicano appalti nell'ambito di accordi quadro conclusi con più di un operatore economico... le amministrazioni aggiudicatrici dovrebbero avere la facoltà di ottenere lavori, servizi o forniture specifici contemplati dall'accordo quadro, o richiedendoli da uno degli operatori economici determinato in base a criteri oggettivi\"."
+                ],
+                [
+                    "Le amministrazioni aggiudicatrici partecipanti possono assegnarsi tra loro responsabilità specifiche e determinare le disposizioni nazionali applicabili del diritto nazionale dei loro rispettivi Stati membri.",
+                    "SI: Il contesto afferma che \"Nel determinare le responsabilità e la legge nazionale applicabile di cui alla lettera a), le amministrazioni aggiudicatrici partecipanti possono assegnarsi tra loro responsabilità specifiche e determinare le disposizioni nazionali applicabili del diritto nazionale dei loro rispettivi Stati membri.\"."
+                ],
+                [
+                    "Le centrali di committenza possono aggiudicare appalti, stipulare ed eseguire i contratti per conto delle amministrazioni aggiudicatrici e degli enti aggiudicatori.",
+                    "SI: Il contesto dichiara che \"Le centrali di committenza possono: a) aggiudicare appalti, stipulare ed eseguire i contratti per conto delle amministrazioni aggiudicatrici e degli enti aggiudicatori;\"."
+                ],
+                [
+                    "L'amministrazione aggiudicatrice non può includere nella stessa procedura altri operatori economici che non abbiano chiesto di partecipare.",
+                    "SI: Il contesto afferma che \"L'amministrazione aggiudicatrice non può includere nella stessa procedura altri operatori economici che non abbiano chiesto di partecipare\"."
+                ],
+                [
+                    "Gli enti aggiudicatori possono esigere che taluni compiti essenziali siano direttamente svolti dall'offerente stesso o da un partecipante al raggruppamento.",
+                    "SI: Il contesto afferma che \"gli enti aggiudicatori possono esigere che taluni compiti essenziali siano direttamente svolti dall'offerente stesso o, nel caso di un'offerta presentata da un raggruppamento di operatori economici di cui all'articolo 37, paragrafo 2, da un partecipante al raggruppamento.\"."
+                ],
+                [
+                    "L'amministrazione aggiudicatrice deve offrire accesso libero, diretto e completo ai documenti di gara a norma dell'articolo 53.",
+                    "SI: Il contesto afferma che le amministrazioni aggiudicatrici \"offrono accesso libero, diretto e completo, finché il sistema è valido, ai documenti di gara a norma dell'articolo 53.\"."
+                ],
+                [
+                    "L'amministrazione aggiudicatrice deve rispettare gli obblighi della direttiva, incluso l'obbligo di inviare un avviso sui risultati di ciascun appalto, salvo casi eccezionali.",
+                    "NO: Il contesto afferma che \"Nel caso di accordi quadro conclusi in conformità dell'articolo 33, le amministrazioni aggiudicatrici sono esentate dall'obbligo di inviare un avviso sui risultati della procedura di aggiudicazione di ciascun appalto basato su tale accordo\", contraddicendo l'affermazione che l'obbligo sussista salvo casi eccezionali, in quanto qui è esplicitamente indicata un'esenzione."
+                ],
+                [
+                    "Se più enti aggiudicatori attuano congiuntamente una procedura d'appalto, essi devono essere congiuntamente responsabili per il rispetto degli obblighi imposti dalla direttiva.",
+                    "SI: Il contesto afferma che \"Se più enti aggiudicatori attuano congiuntamente una procedura d'appalto, essi dovrebbero essere congiuntamente responsabili per il rispetto degli obblighi imposti da questa direttiva.\"."
+                ],
+                [
+                    "Le disposizioni del codice disciplinano le concessioni aggiudicate dagli enti aggiudicatori, e si applicano alle attività specifiche.",
+                    "SI: Il contesto afferma che \"Le disposizioni del presente codice che disciplinano le concessioni aggiudicate dagli enti aggiudicatori di cui all'articolo 164, comma 1, si applicano alle seguenti attivita':\"."
+                ],
+                [
+                    "L'amministrazione aggiudicatrice deve garantire l'accesso ai documenti di gara in conformità con gli obblighi della direttiva.",
+                    "SI: Il contesto afferma che \"Le amministrazioni aggiudicatrici garantiscono l'accesso a tali contratti\" e \"Le amministrazioni aggiudicatrici offrono un accesso gratuito, illimitato e diretto, per via elettronica, ai documenti di gara\"."
+                ],
+                [
+                    "L'amministrazione aggiudicatrice non può escludere operatori economici non richiesti, ma deve garantire l'accesso ai documenti di gara.",
+                    "NO: L'affermazione combina due concetti separati nel contesto: l'impossibilità di includere operatori non richiesti e l'obbligo di garantire l'accesso ai documenti di gara, ma non stabilisce una relazione di causa-effetto o una condizione tra i due, né che l'uno sia una conseguenza dell'altro."
+                ],
+                [
+                    "In sintesi, l'amministrazione aggiudicatrice ha la facoltà di gestire le procedure di gara e i contratti in base alle norme europee e nazionali, ma deve rispettare obblighi specifici, tra cui l'accesso ai documenti di gara, la conformità con le direttive e l'obbligo di informare sui risultati delle procedure di aggiudicazione.",
+                    "NO: L'affermazione è un riassunto generale che include elementi non esplicitamente presenti nel contesto, come la sintesi delle facoltà e degli obblighi in un'unica frase conclusiva e l'obbligo di informare sui risultati delle procedure di aggiudicazione senza menzionare le esenzioni previste."
+                ]
+            ],
+            [
+                [
+                    "Un'Amministrazione Aggiudicatrice può escludere un operatore economico da una procedura di appalto o concessione se non soddisfa i requisiti di qualificazione.",
+                    "NO: Il contesto indica che una domanda di partecipazione non è ritenuta appropriata se l'operatore economico non soddisfa i criteri di selezione, ma non afferma esplicitamente che l'Amministrazione Aggiudicatrice può escludere un operatore economico da una procedura di appalto o concessione se non soddisfa i requisiti di qualificazione."
+                ],
+                [
+                    "Un'Amministrazione Aggiudicatrice può escludere un operatore economico da una procedura di appalto o concessione se l'offerta presentata non rispetta i termini e le condizioni del bando di gara.",
+                    "NO: Il contesto non menziona che l'Amministrazione Aggiudicatrice può escludere un operatore economico se l'offerta presentata non rispetta i termini e le condizioni del bando di gara."
+                ],
+                [
+                    "Un'Amministrazione Aggiudicatrice può escludere un operatore economico da una procedura di appalto o concessione se non vi sono offerte sufficientemente competitive, salvo casi eccezionali.",
+                    "NO: Il contesto non menziona che l'Amministrazione Aggiudicatrice può escludere un operatore economico se non vi sono offerte sufficientemente competitive, salvo casi eccezionali."
+                ],
+                [
+                    "Un'Amministrazione Aggiudicatrice può escludere un operatore economico da una procedura di appalto o concessione se l'offerta non rispetta le norme legali o regolamentari.",
+                    "NO: Il contesto non menziona che l'Amministrazione Aggiudicatrice può escludere un operatore economico se l'offerta non rispetta le norme legali o regolamentari."
+                ],
+                [
+                    "Un'Amministrazione Aggiudicatrice può escludere un operatore economico se esistono dubbi sull'affidabilità dell'operatore.",
+                    "SI: Il contesto afferma che \"Dubbi sull'affidabilità operatore economico possono_giustificare Esclusione operatore economico - [Direttiva 2014/25/UE]: che potrebbero giustificarne l'esclusione.\""
+                ],
+                [
+                    "Un'Amministrazione Aggiudicatrice può escludere un operatore economico se è stato precedentemente escluso da un'altra procedura di selezione.",
+                    "NO: Il contesto non afferma che l'Amministrazione Aggiudicatrice può escludere un operatore economico se è stato precedentemente escluso da un'altra procedura di selezione, ma solo che un operatore escluso con sentenza definitiva non può avvalersi di determinate possibilità."
+                ],
+                [
+                    "Un'Amministrazione Aggiudicatrice può escludere un operatore economico se ha commesso un atto che viola le norme di concorrenza leale.",
+                    "NO: Il contesto menziona che l'operatore economico può essere escluso se ha tentato di influenzare indebitamente il procedimento decisionale o ha fornito informazioni fuorvianti, ma non che può essere escluso per aver commesso un atto che viola le norme di concorrenza leale in generale."
+                ],
+                [
+                    "Le amministrazioni aggiudicatrici non devono rivelare informazioni riservate comunicate da un candidato o da un offerente senza il suo accordo.",
+                    "SI: Il contesto afferma che \"Amministrazione aggiudicatrice non_può_rivelare_senza_accordo Candidato o offerente - [Direttiva 2014/24/UE]: Conformemente all'articolo 21, le amministrazioni aggiudicatrici non possono rivelare agli altri partecipanti informazioni riservate comunicate dal candidato o da un offerente che partecipa alle negoziazioni senza l'accordo di quest'ultimo.\""
+                ],
+                [
+                    "Le amministrazioni aggiudicatrici non devono divulgare informazioni relative all'aggiudicazione degli appalti, alla conclusione di accordi quadro o all'ammissione ad un sistema dinamico di acquisizione se la loro diffusione ostacola l'applicazione della legge o è contraria all'interesse pubblico.",
+                    "SI: Il contesto afferma che \"Amministrazione Aggiudicatrice ha_divieto_di_divulgazione Informazioni (Art. 76, commi 1 e 2) - [D.Lgs. 50/2016]: Le amministrazioni aggiudicatrici non divulgano le informazioni relative all'aggiudicazione degli appalti, alla conclusione di accordi quadro o all'ammissione ad un sistema dinamico di acquisizione, di cui ai commi 1 e 2, se la loro diffusione ostacola l'applicazione della legge o e' contraria all'interesse pubblico.\""
+                ],
+                [
+                    "Le amministrazioni aggiudicatrici non devono divulgare informazioni relative all'aggiudicazione degli appalti, alla conclusione di accordi quadro o all'ammissione ad un sistema dinamico di acquisizione se pregiudica i legittimi interessi commerciali di operatori economici pubblici o privati o dell'operatore economico selezionato.",
+                    "SI: Il contesto afferma che \"Amministrazione Aggiudicatrice ha_divieto_di_divulgazione Informazioni (Art. 76, commi 1 e 2) - [D.Lgs. 50/2016]: ...o pregiudica i legittimi interessi commerciali di operatori economici pubblici o privati o dell'operatore economico selezionato...\"."
+                ],
+                [
+                    "Le amministrazioni aggiudicatrici non devono divulgare informazioni relative all'aggiudicazione degli appalti, alla conclusione di accordi quadro o all'ammissione ad un sistema dinamico di acquisizione se può recare pregiudizio alla leale concorrenza tra questi.",
+                    "SI: Il contesto afferma che \"Amministrazione Aggiudicatrice ha_divieto_di_divulgazione Informazioni (Art. 76, commi 1 e 2) - [D.Lgs. 50/2016]: ...oppure possa recare pregiudizio alla leale concorrenza tra questi.\""
+                ],
+                [
+                    "L'Amministrazione Aggiudicatrice può escludere un operatore economico per motivi legittimi, come non soddisfazione dei requisiti, inadempimento, o violazione delle norme di concorrenza leale.",
+                    "NO: Sebbene il contesto elenchi vari motivi per cui un operatore economico può o deve essere escluso (es. condanna definitiva, gravi illeciti professionali, mancato pagamento imposte), non fornisce una generalizzazione che includa specificamente la \"non soddisfazione dei requisiti\" o \"inadempimento\" come motivi legittimi di esclusione in un'unica affermazione riassuntiva."
+                ],
+                [
+                    "L'Amministrazione Aggiudicatrice ha responsabilità di riservatezza delle informazioni ricevute durante le fasi di gara.",
+                    "SI: Il contesto afferma che \"Amministrazioni aggiudicatrici ha_obbligo_di_salvaguardare Riservatezza domande di partecipazione - [Direttiva 2014/23/UE]: amministrazioni aggiudicatrici ed enti aggiudicatori agiscono in modo da salvaguardare l'integrità dei dati e la riservatezza delle domande di partecipazione e delle offerte.\" e \"Amministrazione aggiudicatrice ha_divieto_di_rivelare Informazioni riservate (operatori economici) - Direttiva 2014/24/UE (Parte 77/238): l'amministrazione aggiudicatrice non rivela informazioni comunicate dagli operatori economici e da essi considerate riservate\"."
+                ]
+            ],
+            [
+                [
+                    "Gli Enti aggiudicatori hanno flessibilità nel definire e organizzare la procedura di selezione del concessionario.",
+                    "SI: Il contesto afferma che 'dovrebbe essere lasciata alle amministrazioni aggiudicatrici e agli enti aggiudicatori un'ampia flessibilità nel definire e organizzare la procedura di selezione del concessionario'."
+                ],
+                [
+                    "Gli Enti aggiudicatori hanno l'obbligo di garantire la trasparenza e la legittimità del processo di selezione del concessionario.",
+                    "NO: Il contesto afferma che gli enti aggiudicatori 'mirano a garantire la trasparenza della procedura di aggiudicazione e dell'esecuzione del contratto', ma non menziona esplicitamente la 'legittimità del processo di selezione del concessionario' come un obbligo."
+                ],
+                [
+                    "Ciascuna amministrazione aggiudicatrice è responsabile dell'adempimento degli obblighi derivanti dalla presente direttiva unicamente per quanto riguarda le parti da essa svolte a proprio nome e per proprio conto.",
+                    "SI: Il contesto afferma 'Ciascuna amministrazione aggiudicatrice è responsabile dell'adempimento degli obblighi derivanti dalla presente direttiva unicamente per quanto riguarda le parti da essa svolte a proprio nome e per proprio conto'."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono documentare lo svolgimento di tutte le procedure di aggiudicazione.",
+                    "SI: Il contesto afferma 'Gli enti aggiudicatori documentano lo svolgimento di tutte le procedure di aggiudicazione'."
+                ],
+                [
+                    "La documentazione delle procedure di aggiudicazione è richiesta indipendentemente dal fatto che esse siano condotte con mezzi elettronici o meno.",
+                    "SI: Il contesto afferma 'Gli enti aggiudicatori documentano lo svolgimento di tutte le procedure di aggiudicazione, indipendentemente dal fatto che esse siano condotte con mezzi elettronici o meno'."
+                ],
+                [
+                    "Gli Enti aggiudicatori verificano la conformità delle offerte presentate dagli offerenti alle norme e ai requisiti applicabili.",
+                    "SI: Il contesto afferma 'Gli enti aggiudicatori verificano la conformita' delle offerte presentate dagli offerenti cosi' selezionati alle norme e ai requisiti applicabili alle stesse'."
+                ],
+                [
+                    "Gli Enti aggiudicatori aggiudicano l'appalto secondo i criteri stabiliti.",
+                    "SI: Il contesto afferma 'Gli enti aggiudicatori ... aggiudicano l'appalto secondo i criteri di cui agli articoli 95 e 97'."
+                ],
+                [
+                    "L'osservanza degli obblighi applicabili in materia di diritto ambientale, sociale e del lavoro da parte dei subappaltatori deve essere garantita dalle autorità nazionali competenti.",
+                    "SI: Il contesto afferma 'L'osservanza degli obblighi di cui all'articolo 30, paragrafo 3, da parte dei subappaltatori è garantita mediante azioni adeguate delle autorità nazionali competenti che agiscono nell'ambito delle rispettive responsabilità e competenze'."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono inviare un avviso di aggiudicazione, come previsto dalle direttive.",
+                    "SI: Il contesto afferma 'gli enti aggiudicatori inviano un avviso di aggiudicazione'."
+                ],
+                [
+                    "Gli Enti aggiudicatori possono agire congiuntamente nell'aggiudicazione di appalti.",
+                    "SI: Il contesto afferma 'Vari enti aggiudicatori di diversi Stati membri possono aggiudicare congiuntamente un appalto'."
+                ],
+                [
+                    "Gli Enti aggiudicatori che agiscono congiuntamente nell'aggiudicazione di appalti hanno l'obbligo di rispettare gli obblighi previsti dalle direttive.",
+                    "SI: Il contesto afferma 'Se più enti aggiudicatori attuano congiuntamente una procedura d'appalto, essi dovrebbero essere congiuntamente responsabili per il rispetto degli obblighi imposti dalla presente direttiva'."
+                ],
+                [
+                    "Gli Enti aggiudicatori sono responsabili per le attività di concessione, purché i lavori o i servizi siano destinati allo svolgimento di una delle attività di cui all'allegato II.",
+                    "SI: Il contesto afferma che la Direttiva 2014/23/UE definisce gli enti aggiudicatori come 'enti che svolgono una delle attività di cui all'allegato II e aggiudicano una concessione per lo svolgimento di una di tali attività'."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono fornire supporto per la pianificazione e la conduzione delle procedure d'appalto, come previsto dalle direttive.",
+                    "NO: Il contesto menziona il 'sostegno' per la 'pianificazione e la conduzione delle procedure d'appalto' in relazione alle amministrazioni aggiudicatrici, ma non come un obbligo esplicito per gli Enti aggiudicatori in generale."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono stabilire norme e criteri oggettivi per l'esclusione e la selezione degli operatori economici.",
+                    "SI: Il contesto afferma 'Gli enti aggiudicatori possono stabilire norme e criteri oggettivi per l'esclusione e la selezione degli offerenti o dei candidati'."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono stabilire norme e criteri oggettivi per il funzionamento del sistema di qualificazione.",
+                    "SI: Il contesto afferma 'Gli enti aggiudicatori stabiliscono norme e criteri oggettivi per ... il funzionamento del sistema di qualificazione'."
+                ],
+                [
+                    "Gli Enti aggiudicatori rispettano i propri obblighi quando acquistano forniture o servizi da una centrale di committenza che offre l'attività di centralizzazione delle committenze.",
+                    "SI: Il contesto afferma 'Un ente aggiudicatore rispetta i suoi obblighi ai sensi della presente direttiva quando acquista forniture o servizi da una centrale di committenza che offre l'attività di centralizzazione delle committenze'."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono garantire la trasparenza e la legittimità del processo di aggiudicazione.",
+                    "SI: Il contesto afferma 'Le amministrazioni aggiudicatrici e gli enti aggiudicatori mirano a garantire la trasparenza della procedura di aggiudicazione e dell'esecuzione del contratto'."
+                ],
+                [
+                    "Gli Enti aggiudicatori hanno l'obbligo di rispettare gli obblighi previsti dalle direttive per garantire la trasparenza e la legittimità del processo di aggiudicazione.",
+                    "NO: Il contesto afferma che gli enti aggiudicatori 'mirano a garantire la trasparenza della procedura di aggiudicazione', ma non specifica che ciò sia un obbligo derivante dalle direttive per garantire la 'legittimità'."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono garantire che le procedure di appalto rispettino le norme europee.",
+                    "SI: Il contesto afferma 'gli enti aggiudicatori applicano procedure adattate in modo da essere conformi alla presente direttiva'."
+                ],
+                [
+                    "Le norme europee che le procedure di appalto devono rispettare includono gli obblighi in materia di diritto ambientale, sociale e del lavoro.",
+                    "SI: Il contesto afferma 'L'osservanza degli obblighi ... in materia di diritto ambientale, sociale e del lavoro ... sia garantita dalle autorità nazionali competenti'."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono garantire che le procedure di appalto rispettino le norme nazionali.",
+                    "SI: Il contesto afferma 'L'osservanza degli obblighi ... in materia di diritto ambientale, sociale e del lavoro stabiliti dal diritto ... nazionale ... sia garantita dalle autorità nazionali competenti'."
+                ],
+                [
+                    "Le norme nazionali che le procedure di appalto devono rispettare includono gli obblighi in materia di diritto ambientale, sociale e del lavoro.",
+                    "SI: Il contesto afferma 'L'osservanza degli obblighi ... in materia di diritto ambientale, sociale e del lavoro stabiliti dal diritto dell'Unione, dal diritto nazionale, dai contratti collettivi o dalle disposizioni internazionali in materia di diritto ambientale, sociale e del lavoro di cui alla presente direttiva'."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono garantire che le procedure di appalto rispettino le norme internazionali in materia di diritto ambientale, sociale e del lavoro.",
+                    "SI: Il contesto afferma 'L'osservanza degli obblighi ... in materia di diritto ambientale, sociale e del lavoro stabiliti dal diritto dell'Unione, dal diritto nazionale, dai contratti collettivi o dalle disposizioni internazionali in materia di diritto ambientale, sociale e del lavoro di cui alla presente direttiva'."
+                ],
+                [
+                    "Gli Enti aggiudicatori devono garantire che le procedure di appalto rispettino le norme dei contratti collettivi.",
+                    "SI: Il contesto afferma 'L'osservanza degli obblighi ... in materia di diritto ambientale, sociale e del lavoro stabiliti dal diritto dell'Unione, dal diritto nazionale, dai contratti collettivi o dalle disposizioni internazionali in materia di diritto ambientale, sociale e del lavoro di cui alla presente direttiva'."
+                ]
+            ],
+            [
+                [
+                    "Gli Enti aggiudicatori garantiscono la trasparenza e la non discriminazione nelle procedure di gara attraverso diversi strumenti e principi.",
+                    "SI: Il contesto afferma che gli enti aggiudicatori mirano a garantire la trasparenza della procedura di aggiudicazione e dell'esecuzione del contratto e hanno l'obbligo di assicurare la trasparenza e agire in maniera trasparente e proporzionata, garantendo la parità di trattamento e non discriminazione."
+                ],
+                [
+                    "Gli enti aggiudicatori devono indicare nei documenti di gara le regole o i criteri oggettivi e non discriminatori che intendono applicare.",
+                    "SI: Il contesto afferma che 'Gli enti aggiudicatori indicano nei documenti di gara le regole o i criteri oggettivi e non discriminatori che intendono applicare'."
+                ],
+                [
+                    "Questo permette agli offerenti di comprendere le condizioni e i requisiti del contratto, garantendo una concorrenza equa.",
+                    "SI: Il contesto afferma che la trasparenza è necessaria per 'consentire a qualsiasi offerente di essere ragionevolmente informato dei criteri e delle modalità che saranno applicati nella decisione di aggiudicazione dell'appalto', il che implica una concorrenza equa."
+                ],
+                [
+                    "L'adozione di mezzi elettronici di informazione e comunicazione, come piattaforme digitali, aumenta la trasparenza e l'efficienza delle procedure di aggiudicazione.",
+                    "SI: Il contesto afferma che 'I mezzi elettronici di informazione e comunicazione possono [...] accrescere l'efficienza, la rapidità e la trasparenza delle procedure di aggiudicazione di concessioni'."
+                ],
+                [
+                    "Questi strumenti facilitano l'accesso alle informazioni, la partecipazione degli offerenti e la gestione delle procedure.",
+                    "SI: Il contesto afferma che i mezzi elettronici 'accrescono l'efficienza, la rapidità e la trasparenza delle procedure', il che implica facilitazione dell'accesso alle informazioni e gestione delle procedure."
+                ],
+                [
+                    "L'elenco delle amministrazioni aggiudicatrici e l'informazione pubblica sulle procedure di gara contribuiscono a garantire un livello adeguato di pubblicità e trasparenza nei contratti pubblici.",
+                    "SI: Il contesto afferma che l'elenco delle amministrazioni aggiudicatrici e enti aggiudicatori è finalizzato a 'garantire adeguati livelli di pubblicita' e trasparenza nei contratti pubblici'."
+                ],
+                [
+                    "La verifica dell'assenza di motivi di esclusione e del rispetto dei criteri di selezione deve essere effettuata in modo imparziale e trasparente, per evitare l'aggiudicazione a offerenti non idonei.",
+                    "SI: Il contesto afferma che 'la verifica dell'assenza di motivi di esclusione e del rispetto dei criteri di selezione sia effettuata in maniera imparziale e trasparente, in modo che nessun appalto sia aggiudicato a un offerente che avrebbe dovuto essere escluso'."
+                ],
+                [
+                    "Gli enti aggiudicatori devono evitare ostacoli ingiustificati all'accesso degli operatori economici alle procedure di gara, garantendo la parità di trattamento.",
+                    "SI: Il contesto afferma che 'gli enti aggiudicatori dovrebbero evitare ostacoli ingiustificati all'accesso degli operatori economici alle procedure di appalto [...] e che assicurino il rispetto dei principi generali di non discriminazione e di parità di trattamento'."
+                ],
+                [
+                    "Gli enti aggiudicatori agiscono in modo trasparente e proporzionato, garantendo la parità di trattamento tra tutti gli offerenti.",
+                    "SI: Il contesto afferma che 'Gli enti aggiudicatori trattano gli operatori economici su un piano di parità e in modo non discriminatorio e agiscono in maniera trasparente e proporzionata' e 'garantiscono la parita' di trattamento fra tutti gli offerenti'."
+                ],
+                [
+                    "Per promuovere l'innovazione e l'efficienza, gli enti aggiudicatori possono utilizzare tecnologie digitali.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono utilizzare tecnologie digitali per promuovere l'innovazione e l'efficienza in generale, ma solo che i mezzi elettronici accrescono efficienza e trasparenza."
+                ],
+                [
+                    "Possono implementare piattaforme digitali per la gestione delle procedure, migliorando la velocità e la trasparenza.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono implementare piattaforme digitali per la gestione delle procedure, migliorando la velocità e la trasparenza, ma solo che i mezzi elettronici accrescono efficienza e trasparenza."
+                ],
+                [
+                    "Possono favorire la partecipazione di nuove imprese.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono favorire la partecipazione di nuove imprese."
+                ],
+                [
+                    "Possono promuovere la partecipazione di imprese giovani, di piccole e medie dimensioni, e di imprese di mercato non europeo, attraverso misure di supporto e di facilitazione.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono promuovere la partecipazione di imprese giovani, di piccole e medie dimensioni, e di imprese di mercato non europeo, attraverso misure di supporto e di facilitazione."
+                ],
+                [
+                    "Possono sviluppare criteri di aggiudicazione flessibili.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono sviluppare criteri di aggiudicazione flessibili."
+                ],
+                [
+                    "Possono adottare criteri di aggiudicazione che siano flessibili e adatti a nuove tecnologie e modelli di business.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono adottare criteri di aggiudicazione che siano flessibili e adatti a nuove tecnologie e modelli di business."
+                ],
+                [
+                    "Possono promuovere la collaborazione tra enti.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono promuovere la collaborazione tra enti."
+                ],
+                [
+                    "Possono favorire la collaborazione tra enti pubblici e privati per migliorare l'efficienza e l'innovazione nei progetti pubblici.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono favorire la collaborazione tra enti pubblici e privati per migliorare l'efficienza e l'innovazione nei progetti pubblici."
+                ],
+                [
+                    "Possono monitorare e valutare le procedure.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono monitorare e valutare le procedure."
+                ],
+                [
+                    "Possono implementare sistemi di monitoraggio e valutazione per garantire che le procedure siano efficienti e trasparenti, e per identificare aree di miglioramento.",
+                    "NO: Il contesto non menziona che gli enti aggiudicatori possono implementare sistemi di monitoraggio e valutazione per garantire che le procedure siano efficienti e trasparenti, e per identificare aree di miglioramento."
+                ]
+            ],
+            [
+                [
+                    "Il Responsabile del Procedimento dispone il pagamento di rate di acconto o di saldo dei lavori ai rispettivi creditori sulla base delle risultanze dei certificati dei cottimi e delle liste delle somministrazioni.",
+                    "SI: Il contesto afferma esplicitamente: 'Sulla base delle risultanze dei certificati dei cottimi e delle liste delle somministrazioni, il responsabile del procedimento dispone il pagamento di rate di acconto o di saldo dei lavori ai rispettivi creditori.'"
+                ],
+                [
+                    "Il responsabile del procedimento è preposto al controllo contabile e amministrativo dell'esecuzione dell'intervento, in collaborazione con il direttore dei lavori.",
+                    "NO: Il contesto afferma che il Direttore dei lavori è preposto al controllo contabile e amministrativo, ma non che il responsabile del procedimento lo sia in collaborazione con il direttore dei lavori."
+                ],
+                [
+                    "In coordinamento con il direttore dell'esecuzione ove nominato, il responsabile del procedimento assume i compiti di cura, controllo e vigilanza nella fase di esecuzione contrattuale, che include aspetti finanziari.",
+                    "NO: Il contesto afferma che il responsabile del procedimento assume i compiti di cura, controllo e vigilanza nella fase di esecuzione contrattuale, ma non specifica che ciò includa aspetti finanziari."
+                ],
+                [
+                    "Il responsabile del procedimento compila un conto generale riassuntivo dei rendiconti finali delle varie sezioni, che è parte della gestione finanziaria e contabile.",
+                    "NO: Il contesto afferma che il responsabile del procedimento compila un conto generale riassuntivo dei rendiconti finali delle varie sezioni, ma non che ciò sia parte della gestione finanziaria e contabile."
+                ],
+                [
+                    "La responsabilità per la rispondenza dell'opera al progetto, anche se principalmente legata alla fase tecnica, influisce sulla gestione finanziaria, poiché l'adempimento del progetto è necessario per il corretto utilizzo delle risorse finanziarie.",
+                    "NO: Il contesto afferma che il Direttore dei lavori ha la responsabilità della rispondenza dell'opera al progetto, ma non menziona che ciò influisca sulla gestione finanziaria o sull'utilizzo delle risorse finanziarie."
+                ]
+            ],
+            [
+                [
+                    "Il Responsabile del Procedimento può assumere ruoli aggiuntivi come Responsabile dei Lavori o Direttore dei Lavori.",
+                    "SI: Il contesto afferma che il responsabile del procedimento 'assume il ruolo di responsabile dei lavori' e 'può svolgere ... anche le funzioni di progettista o di direttore dei lavori'."
+                ],
+                [
+                    "Il Responsabile del Procedimento può assumere ruoli aggiuntivi solo nei limiti delle sue competenze professionali.",
+                    "SI: Il contesto afferma che il responsabile del procedimento 'può svolgere per uno o più interventi, nei limiti delle proprie competenze professionali, anche le funzioni di progettista o di direttore dei lavori'."
+                ],
+                [
+                    "Il Responsabile del Procedimento può delegare compiti ai soggetti competenti.",
+                    "NO: Il contesto non menziona la possibilità per il Responsabile del Procedimento di delegare compiti."
+                ],
+                [
+                    "Il Responsabile del Procedimento non può delegare la responsabilità per l'intero procedimento.",
+                    "NO: Il contesto non fornisce informazioni sulla possibilità o meno di delegare la responsabilità per l'intero procedimento."
+                ],
+                [
+                    "Le responsabilità principali del Responsabile del Procedimento riguardano il rispetto delle norme sulla sicurezza e salute dei lavoratori sui luoghi di lavoro.",
+                    "SI: Il contesto afferma che il responsabile del procedimento 'assume il ruolo di responsabile dei lavori, ai fini del rispetto delle norme sulla sicurezza e salute dei lavoratori sui luoghi di lavoro'."
+                ],
+                [
+                    "Le responsabilità del Responsabile del Procedimento sono indicate nell'Art. 273 del DPR 207/2010.",
+                    "SI: Il contesto afferma che 'Articolo 273 (DPR 207/2010) disciplina Funzioni e compiti del Responsabile del Procedimento'."
+                ]
+            ]
+        ],
+        "analysis_faithfulness_explanations": [
+            [
+                [
+                    "La risposta è stata costruita in base alle informazioni fornite nel testo.",
+                    "SI: L'analisi afferma che la risposta è stata costruita in base alle informazioni fornite nel testo, il che è vero in quanto la risposta riassume il contenuto del contesto."
+                ],
+                [
+                    "Il testo elenca le principali facoltà e obblighi dell'Amministrazione Aggiudicatrice.",
+                    "SI: L'analisi afferma che il testo elenca le principali facoltà e obblighi dell'Amministrazione Aggiudicatrice, il che è vero in quanto il contesto fornisce numerosi esempi di entrambi."
+                ],
+                [
+                    "Le facoltà principali includono la capacità di aggiudicare appalti distinti.",
+                    "SI: L'analisi afferma che le facoltà principali includono la capacità di aggiudicare appalti distinti, il che è supportato dal contesto: 'Amministrazione aggiudicatrice ha_facolta_di_svolgere Aggiudicare contratti distinti - Direttiva 2014/23/UE (Parte 55/115)'."
+                ],
+                [
+                    "Le facoltà principali includono la capacità di utilizzare accordi quadro.",
+                    "SI: L'analisi afferma che le facoltà principali includono la capacità di utilizzare accordi quadro, il che è supportato dal contesto: 'Amministrazione aggiudicatrice ha_facoltà_di_concludere Accordo quadro - [Direttiva 2014/24/UE]'."
+                ],
+                [
+                    "Le facoltà principali includono la capacità di assegnare responsabilità specifiche.",
+                    "SI: L'analisi afferma che le facoltà principali includono la capacità di assegnare responsabilità specifiche, il che è supportato dal contesto: 'Amministrazioni aggiudicatrici partecipanti possono_assegnarsi_tra_loro Responsabilità specifiche - Direttiva 2014/24/UE (Parte 104/238)'."
+                ],
+                [
+                    "Le facoltà principali includono la capacità di utilizzare centrali di committenza.",
+                    "SI: L'analisi afferma che le facoltà principali includono la capacità di utilizzare centrali di committenza, il che è supportato dal contesto: 'Centrale di committenza ha_facolta_di_svolgere Aggiudicare appalti - D.Lgs. 50/2016, Art. 37, comma 7, lettera a): Le centrali di committenza possono: a) aggiudicare appalti, stipulare ed eseguire i contratti per conto delle amministrazioni aggiudicatrici e degli enti aggiudicatori;'."
+                ],
+                [
+                    "Le facoltà principali includono la capacità di escludere operatori non richiesti.",
+                    "SI: L'analisi afferma che le facoltà principali includono la capacità di escludere operatori non richiesti, il che è supportato dal contesto: 'Amministrazione Aggiudicatrice non_può_includere Operatori economici non richiesti - Direttiva 2014/24/UE (Parte 138/238)'."
+                ],
+                [
+                    "Gli obblighi principali includono l'accesso ai documenti di gara.",
+                    "SI: L'analisi afferma che gli obblighi principali includono l'accesso ai documenti di gara, il che è supportato dal contesto: 'Amministrazione aggiudicatrice ha_obbligo_di_garantire Accesso ai documenti di gara - Direttiva 2014/24/UE (Parte 97/238)'."
+                ],
+                [
+                    "Gli obblighi principali includono il rispetto delle direttive.",
+                    "SI: L'analisi afferma che gli obblighi principali includono il rispetto delle direttive, il che è supportato dal contesto: 'Amministrazione aggiudicatrice rispetta_obblighi_direttiva_quando Acquisto forniture/servizi da Centrale di committenza - [Direttiva 2014/24/UE]'."
+                ],
+                [
+                    "Gli obblighi principali includono la responsabilità congiunta in caso di più enti aggiudicatori.",
+                    "SI: L'analisi afferma che gli obblighi principali includono la responsabilità congiunta in caso di più enti aggiudicatori, il che è supportato dal contesto: 'Amministrazioni aggiudicatrici (congiunte) sono_congiuntamente_responsabili_solo_per Rispetto obblighi Direttiva 2014/24/UE - Direttiva 2014/24/UE (71)'."
+                ],
+                [
+                    "Gli obblighi principali includono l'applicazione del D.Lgs. 50/2016.",
+                    "SI: L'analisi afferma che gli obblighi principali includono l'applicazione del D.Lgs. 50/2016, il che è supportato dal contesto: 'D.Lgs. 50/2016 disciplina Contratti di appalto - [D.Lgs. 50/2016]: Il presente codice disciplina i contratti di appalto e di concessione delle amministrazioni aggiudicatrici e degli enti aggiudicatori'."
+                ],
+                [
+                    "Gli obblighi principali includono il rispetto degli obblighi di informazione sui risultati delle procedure.",
+                    "SI: L'analisi afferma che gli obblighi principali includono il rispetto degli obblighi di informazione sui risultati delle procedure, il che è supportato dal contesto: 'Amministrazioni aggiudicatrici sono_esentati_da Obbligo di inviare avviso sui risultati di ciascun appalto - Direttiva 2014/24/UE (Parte 119/238)'."
+                ],
+                [
+                    "La risposta è strutturata in modo chiaro, con un elenco delle facoltà e obblighi.",
+                    "SI: L'analisi afferma che la risposta è strutturata in modo chiaro, con un elenco delle facoltà e obblighi, il che è una descrizione accurata della struttura della risposta fornita."
+                ],
+                [
+                    "La risposta include riferimenti alle direttive e al D.Lgs. 50/2016.",
+                    "SI: L'analisi afferma che la risposta include riferimenti alle direttive e al D.Lgs. 50/2016, il che è vero in quanto la risposta menziona esplicitamente entrambi."
+                ]
+            ],
+            [
+                [
+                    "La risposta fornita è corretta nel riconoscere che un'Amministrazione Aggiudicatrice può escludere un operatore economico per diverse circostanze, tra cui non soddisfazione dei requisiti, inadempimento, o violazione delle norme di concorrenza leale.",
+                    "SI: La risposta afferma esplicitamente che l'Amministrazione Aggiudicatrice può escludere un operatore economico per le ragioni elencate."
+                ],
+                [
+                    "Tuttavia, ci sono alcune ripetizioni e incoerenze nella lista delle circostanze, con alcuni punti che si ripetono in modo incoerente.",
+                    "SI: La risposta menziona esplicitamente la presenza di ripetizioni e incoerenze nella lista delle circostanze."
+                ],
+                [
+                    "Inoltre, la risposta include una lista di circostanze che sembrano ripetere lo stesso punto più volte, il che potrebbe indicare un errore di formattazione o di copia.",
+                    "SI: La risposta indica che la lista di circostanze ripete lo stesso punto più volte, suggerendo un errore di formattazione o copia."
+                ],
+                [
+                    "Inoltre, la risposta include una sezione sulla riservatezza delle informazioni, che è corretta, ma potrebbe poter essere strutturata in modo più chiaro e conciso.",
+                    "SI: La risposta afferma che è inclusa una sezione sulla riservatezza delle informazioni, che è corretta ma potrebbe essere più chiara e concisa."
+                ],
+                [
+                    "In sintesi, la risposta è corretta ma potrebbe beneficiare di una maggiore chiarezza e coerenza nella descrizione delle circostanze in cui un'Amministrazione Aggiudicatrice può escludere un operatore economico.",
+                    "SI: La risposta conclude che la risposta è corretta ma potrebbe beneficiare di maggiore chiarezza e coerenza nella descrizione delle circostanze di esclusione."
+                ]
+            ],
+            [
+                [
+                    "La risposta è stata generata in base alle informazioni fornite.",
+                    "SI: La risposta afferma esplicitamente di essere stata generata in base alle informazioni fornite."
+                ],
+                [
+                    "Le informazioni fornite elencano le responsabilità e le facoltà degli Enti aggiudicatori.",
+                    "SI: La risposta afferma che le informazioni fornite elencano le responsabilità e le facoltà degli Enti aggiudicatori."
+                ],
+                [
+                    "Ci sono alcune ripetizioni nella risposta.",
+                    "SI: La risposta dichiara che ci sono alcune ripetizioni."
+                ],
+                [
+                    "Non tutti i punti della risposta sono chiaramente distinti.",
+                    "SI: La risposta afferma che non tutti i punti sono chiaramente distinti."
+                ],
+                [
+                    "Alcuni punti riguardano lo stesso obbligo in modo ripetitivo.",
+                    "SI: La risposta indica che alcuni punti riguardano lo stesso obbligo in modo ripetitivo."
+                ],
+                [
+                    "Un esempio di ripetizione è l'obbligo di garantire la conformità con le norme dei contratti collettivi.",
+                    "NO: La risposta menziona genericamente 'l'obbligo di garantire la conformità con le norme dei contratti collettivi' come esempio di ripetizione, ma questa specifica frase non è presente nel contesto fornito come un obbligo ripetuto."
+                ],
+                [
+                    "Alcuni punti sono troppo generici.",
+                    "SI: La risposta afferma che alcuni punti sono troppo generici."
+                ],
+                [
+                    "Alcuni punti non sono specifici.",
+                    "SI: La risposta afferma che alcuni punti non sono specifici."
+                ],
+                [
+                    "Per migliorare la risposta, è necessario rivedere la struttura.",
+                    "SI: La risposta suggerisce che per migliorare è necessario rivedere la struttura."
+                ],
+                [
+                    "Per migliorare la risposta, è necessario rivedere il contenuto.",
+                    "SI: La risposta suggerisce che per migliorare è necessario rivedere il contenuto."
+                ],
+                [
+                    "La revisione deve garantire una presentazione più chiara.",
+                    "SI: La risposta indica che la revisione deve garantire una presentazione più chiara."
+                ],
+                [
+                    "La revisione deve garantire una presentazione più concisa.",
+                    "SI: La risposta indica che la revisione deve garantire una presentazione più concisa."
+                ],
+                [
+                    "La revisione deve evitare duplicazioni.",
+                    "SI: La risposta indica che la revisione deve evitare duplicazioni."
+                ],
+                [
+                    "La revisione deve fornire una descrizione più precisa delle responsabilità degli Enti aggiudicatori.",
+                    "SI: La risposta indica che la revisione deve fornire una descrizione più precisa delle responsabilità degli Enti aggiudicatori."
+                ],
+                [
+                    "La revisione deve fornire una descrizione più precisa delle facoltà degli Enti aggiudicatori.",
+                    "SI: La risposta indica che la revisione deve fornire una descrizione più precisa delle facoltà degli Enti aggiudicatori."
+                ]
+            ],
+            [
+                [
+                    "La risposta è costruita in base ai principi e alle misure indicate nella Direttiva 2014/23/UE.",
+                    "SI: La risposta menziona esplicitamente la Direttiva 2014/23/UE come base per la sua costruzione."
+                ],
+                [
+                    "La risposta è costruita in base ai principi e alle misure indicate nella Direttiva.",
+                    "NO: La risposta menziona \"Direttiva\" ma non specifica quale, rendendo l'affermazione troppo generica e non completamente fedele al testo."
+                ],
+                [
+                    "Gli strumenti utilizzati per garantire la trasparenza e la non discriminazione sono diversi.",
+                    "SI: La risposta afferma che \"Gli strumenti utilizzati per garantire la trasparenza e la non discriminazione sono diversi\"."
+                ],
+                [
+                    "Gli strumenti utilizzati per garantire la trasparenza e la non discriminazione includono la pubblicazione di informazioni.",
+                    "NO: La risposta menziona \"la pubblicazione di informazioni\" ma il contesto non fornisce dettagli specifici su questo strumento per garantire trasparenza e non discriminazione."
+                ],
+                [
+                    "Gli strumenti utilizzati per garantire la trasparenza e la non discriminazione includono l'uso di mezzi elettronici.",
+                    "SI: La risposta menziona \"l'uso di mezzi elettronici\" e il contesto supporta che \"I mezzi elettronici di informazione e comunicazione possono [...] accrescere l'efficienza, la rapidità e la trasparenza delle procedure di aggiudicazione di concessioni.\"."
+                ],
+                [
+                    "Gli strumenti utilizzati per garantire la trasparenza e la non discriminazione includono la verifica imparziale.",
+                    "SI: La risposta menziona \"la verifica imparziale\" e il contesto supporta che \"le amministrazioni aggiudicatrici garantiscono che la verifica dell'assenza di motivi di esclusione e del rispetto dei criteri di selezione sia effettuata in maniera imparziale e trasparente\"."
+                ],
+                [
+                    "Gli strumenti utilizzati per garantire la trasparenza e la non discriminazione includono l'evitare ostacoli ingiustificati.",
+                    "SI: La risposta menziona \"l'evitare ostacoli ingiustificati\" e il contesto supporta che \"gli enti aggiudicatori dovrebbero evitare ostacoli ingiustificati all'accesso degli operatori economici alle procedure di appalto\"."
+                ],
+                [
+                    "Gli strumenti utilizzati per garantire la trasparenza e la non discriminazione includono l'applicazione di principi di parità di trattamento.",
+                    "SI: La risposta menziona \"l'applicazione di principi di parità di trattamento\" e il contesto supporta che \"gli enti aggiudicatori dovrebbero [...] assicurino il rispetto dei principi generali di non discriminazione e di parità di trattamento.\"."
+                ],
+                [
+                    "Per promuovere l'innovazione e l'efficienza, gli enti aggiudicatori possono adottare tecnologie digitali.",
+                    "NO: La risposta menziona l'adozione di tecnologie digitali per promuovere innovazione ed efficienza, ma il contesto non fornisce informazioni su questo aspetto."
+                ],
+                [
+                    "Per promuovere l'innovazione e l'efficienza, gli enti aggiudicatori possono favorire la partecipazione di nuove imprese.",
+                    "NO: La risposta menziona il favorire la partecipazione di nuove imprese per promuovere innovazione ed efficienza, ma il contesto non fornisce informazioni su questo aspetto."
+                ],
+                [
+                    "Per promuovere l'innovazione e l'efficienza, gli enti aggiudicatori possono sviluppare criteri flessibili.",
+                    "NO: La risposta menziona lo sviluppo di criteri flessibili per promuovere innovazione ed efficienza, ma il contesto non fornisce informazioni su questo aspetto."
+                ],
+                [
+                    "Per promuovere l'innovazione e l'efficienza, gli enti aggiudicatori possono promuovere la collaborazione.",
+                    "NO: La risposta menziona la promozione della collaborazione per promuovere innovazione ed efficienza, ma il contesto non fornisce informazioni su questo aspetto."
+                ],
+                [
+                    "Per promuovere l'innovazione e l'efficienza, gli enti aggiudicatori possono monitorare le procedure.",
+                    "NO: La risposta menziona il monitoraggio delle procedure per promuovere innovazione ed efficienza, ma il contesto non fornisce informazioni su questo aspetto."
+                ]
+            ],
+            [
+                [
+                    "La risposta è stata costruita analizzando i testi forniti, identificando le funzioni specifiche del Responsabile del Procedimento che riguardano la gestione finanziaria e contabile.",
+                    "SI: L'analisi è coerente con la domanda e il contesto fornito."
+                ],
+                [
+                    "Le principali fonti sono l'Art. 274, comma 1 e l'Art. 101, comma 3 del DPR 207/2010, che menzionano il controllo contabile e amministrativo, il pagamento dei lavori e la collaborazione con il direttore dei lavori.",
+                    "SI: L'analisi è coerente con la domanda e il contesto fornito."
+                ],
+                [
+                    "Inoltre, l'Art. 273 e l'Art. 274 descrivono le funzioni generali del responsabile del procedimento, che includono la cura, il controllo e la vigilanza nella fase di esecuzione contrattuale, con implicazioni finanziarie.",
+                    "SI: L'analisi è coerente con la domanda e il contesto fornito."
+                ],
+                [
+                    "La responsabilità per la rispondenza dell'opera al progetto, pur essendo principalmente tecnica, è strettamente legata alla gestione finanziaria, poiché l'adempimento del progetto è necessario per il corretto utilizzo delle risorse finanziarie.",
+                    "SI: L'analisi è coerente con la domanda e il contesto fornito."
+                ]
+            ],
+            [
+                [
+                    "Il Responsabile del Procedimento può assumere ruoli aggiuntivi come Responsabile dei Lavori o Direttore dei Lavori.",
+                    "SI: La risposta afferma che il Responsabile del Procedimento può assumere ruoli aggiuntivi come Responsabile dei Lavori o Direttore dei Lavori, come supportato dal contesto."
+                ],
+                [
+                    "Il Responsabile del Procedimento può assumere ruoli aggiuntivi solo nei limiti delle sue competenze professionali.",
+                    "SI: La risposta afferma che il Responsabile del Procedimento può assumere ruoli aggiuntivi solo nei limiti delle sue competenze professionali, come supportato dal contesto."
+                ],
+                [
+                    "Il Responsabile del Procedimento può delegare compiti ai soggetti competenti.",
+                    "NO: La risposta afferma che il Responsabile del Procedimento può delegare compiti ai soggetti competenti, ma questa informazione non è presente nel contesto fornito."
+                ],
+                [
+                    "Il Responsabile del Procedimento non può delegare la responsabilità per l'intero procedimento.",
+                    "NO: La risposta afferma che il Responsabile del Procedimento non può delegare la responsabilità per l'intero procedimento, ma questa informazione non è presente nel contesto fornito."
+                ],
+                [
+                    "Le responsabilità principali del Responsabile del Procedimento riguardano il rispetto delle norme sulla sicurezza e salute dei lavoratori sui luoghi di lavoro.",
+                    "SI: La risposta afferma che le responsabilità principali del Responsabile del Procedimento riguardano il rispetto delle norme sulla sicurezza e salute dei lavoratori sui luoghi di lavoro, come supportato dal contesto."
+                ],
+                [
+                    "Le responsabilità del Responsabile del Procedimento sono indicate nell'Art. 273 del DPR 207/2010.",
+                    "SI: La risposta afferma che le responsabilità del Responsabile del Procedimento sono indicate nell'Art. 273 del DPR 207/2010, come supportato dal contesto."
+                ]
+            ]
+        ],
+        "answer_accuracy_explanations": [
+            {
+                "response1": "Score 0: La risposta generata non corrisponde alla ground truth. Le facoltà e gli obblighi elencati nella risposta generata sono diversi da quelli specificati nella ground truth.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth. Elenca alcune facoltà e obblighi, ma non copre tutte le informazioni presenti nella ground truth e le presenta in un formato meno chiaro."
+            },
+            {
+                "response1": "Score 0: La risposta generata non risponde alla domanda, ma fornisce una valutazione della risposta stessa.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth. La ground truth indica che la risposta è corretta ma con ripetizioni e incoerenze, e la risposta generata presenta effettivamente una struttura che potrebbe essere interpretata come ripetitiva o poco chiara, pur fornendo informazioni pertinenti."
+            },
+            {
+                "response1": "Score 0: La risposta generata non risponde alla domanda, ma fornisce una valutazione della qualità della risposta stessa.",
+                "response2": "Score 0: La risposta generata non corrisponde alla ground truth. La ground truth è una valutazione della risposta generata, non una risposta alla domanda originale."
+            },
+            {
+                "response1": "Score 2: La risposta generata è parzialmente allineata alla ground truth. Menziona alcuni principi e strumenti, ma non specifica gli articoli o le direttive come la ground truth, né elenca tutti gli strumenti specifici menzionati nella ground truth (es. accordo quadro, asta elettronica).",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth, ma utilizza un formato non standard e non cita le direttive pertinenti."
+            },
+            {
+                "response1": "Score 0: La risposta generata non elenca le responsabilità specifiche del RP in relazione alla gestione finanziaria e contabile come richiesto dalla domanda e presente nella ground truth. Si limita a citare articoli di legge senza dettagliare le funzioni.",
+                "response2": "Score 4: La risposta generata è completamente allineata alla ground truth, fornendo un elenco dettagliato delle responsabilità del Responsabile del Procedimento in relazione alla gestione finanziaria e contabile dei lavori, basandosi sulle fonti indicate nella ground truth."
+            },
+            {
+                "response1": "Score 2: La risposta generata è parzialmente allineata alla ground truth. Menziona alcuni ruoli aggiuntivi e responsabilità, ma non copre tutte le circostanze e le responsabilità dettagliate presenti nella ground truth, come la conformità normativa e le verifiche.",
+                "response2": "Score 2: La risposta generata è parzialmente allineata alla ground truth. La risposta generata fornisce molte più informazioni rispetto alla ground truth, alcune delle quali non sono direttamente richieste dalla domanda o non sono presenti nella ground truth. La ground truth menziona l'Art. 273 del DPR 207/2010, che non è citato nella risposta generata."
+            }
+        ]
+    },
+    "totalmente_fuori_contesto": {
+        "avg_context_faithfulness": 1.0,
+        "avg_analysis_faithfulness": 1.0,
+        "avg_answer_accuracy": 1.0,
+        "context_faithfulness_explanations": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "analysis_faithfulness_explanations": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "answer_accuracy_explanations": [
+            {
+                "response1": "Score 4: La risposta generata corrisponde alla ground truth, indicando che la domanda è fuori contesto.",
+                "response2": "Score 4: La risposta generata è allineata alla ground truth, indicando che la domanda è fuori contesto."
+            },
+            {
+                "response1": "Score 4: La risposta generata corrisponde alla ground truth, ammettendo la mancanza di informazioni.",
+                "response2": "Score 4: La risposta generata è allineata alla ground truth, indicando che la domanda è fuori contesto."
+            },
+            {
+                "response1": "Score 4: La risposta generata corrisponde alla ground truth, ammettendo la mancanza di informazioni.",
+                "response2": "Score 4: La risposta generata è allineata alla ground truth, indicando che la domanda è fuori contesto."
+            },
+            {
+                "response1": "Score 4: La risposta generata è allineata alla ground truth, indicando che la domanda è fuori contesto.",
+                "response2": "Score 4: La risposta generata è allineata alla ground truth, indicando che la domanda è fuori contesto."
+            },
+            {
+                "response1": "Score 4: La risposta generata è allineata alla ground truth, indicando che la domanda è fuori contesto.",
+                "response2": "Score 4: La risposta generata è allineata alla ground truth, indicando che la domanda è fuori contesto."
+            },
+            {
+                "response1": "Score 4: La risposta generata è allineata alla ground truth, indicando che la domanda è fuori contesto.",
+                "response2": "Score 4: La risposta generata è allineata alla ground truth, indicando che la domanda è fuori contesto."
+            }
+        ]
+    }
+}
