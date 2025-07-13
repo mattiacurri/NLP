@@ -295,7 +295,6 @@ class OllamaInference():
 
     def extract_entities(self, prompt: str):
         client = genai.Client(
-            api_key="AIzaSyAKH5Ev5Mn7e3dHliN3lAAXIv7-evO0GtI"
         )
         
         response = client.models.generate_content(
@@ -312,7 +311,6 @@ class OllamaInference():
     
     def extract_entities_and_relations(self, prompt: str):
         client = genai.Client(
-            api_key="AIzaSyAKH5Ev5Mn7e3dHliN3lAAXIv7-evO0GtI"
         )
         
         response = client.models.generate_content(
