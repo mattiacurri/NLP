@@ -15,6 +15,8 @@ from docling_core.transforms.serializer.markdown import MarkdownTableSerializer
 import glob
 import re
 
+from tqdm import tqdm
+
 # Docling parameters
 pipeline_options = PdfPipelineOptions()
 
@@ -112,3 +114,20 @@ def compact_chunk(source, out, group_size=3):
             out_file = os.path.join(out_dir, f"{base}_compacted_{idx}.md")
             with open(out_file, "w", encoding="utf-8") as f:
                 f.write(compacted_text)
+                
+# Step 1: Convert all the documents to Markdown
+for filename in tqdm(os.listdir("docs"), desc="Converting documents", unit="file", position=0, leave=True):
+    # Skip files that are already converted
+    base_name = filename.replace('.pdf', '')
+    md_path = os.path.join("docs_md", f"{base_name}_0.md")
+    #if os.path.exists(md_path):
+        #print(f" ==== Skipping {filename}, already converted. ====")
+        #continue
+    
+    if filename.endswith(".pdf"):
+        source = os.path.join("docs", filename)
+        out = os.path.join("docs_md", filename.replace(".pdf", ""))
+        #convert(source, out)
+        
+        out = "docs_md/"
+        compact_chunk(filename.replace(".pdf", ""), out)
