@@ -10,7 +10,7 @@ import os
 
 import json
 
-from prompts import RAG_PROMPT, rag_prompt, ENTITIES_RELATIONS_EXTRACTION_SYSTEM_PROMPT, COMBINE_ANSWERS_PROMPT, DECOMPOSE_PROMPT, ENTITIES_EXTRACTION_SYSTEM_PROMPT
+from prompts import RAG_PROMPT, rag_prompt, ENTITIES_RELATIONS_EXTRACTION_SYSTEM_PROMPT, COMBINE_ANSWERS_PROMPT,ENTITIES_EXTRACTION_SYSTEM_PROMPT
 
 load_dotenv()
 
@@ -75,15 +75,15 @@ class OllamaInference():
         graph_entities = []
         for entity in entities:
         # semantic search for the entities
-          s = self.search.search_semantic_triples(entity, cosine_threshold=0.85)
-          if len(s) > 0:
-            # take the first element of the list
-            graph_entities.append(s[0])
+            s = self.search.search_semantic_triples(entity, cosine_threshold=0.85)
+            if len(s) > 0:
+                # take the first element of the list
+                graph_entities.append(s[0])
         
         # take only entities from the graph_entities
         graph_entities = [entity[0] for entity in graph_entities]
         
-        # Trova percorsi o random walk tra le entità
+        # Random walk
         query = """
         MATCH (n)
         WHERE n.id IN $graph_entities
@@ -345,31 +345,7 @@ class OllamaInference():
             r = r[1:]
         return json.loads(r)
     
-    def generate_content_query_decomposition(self, prompt: str) -> str:
-        # Decompose the query into smaller sub-queries
 
-        response = ""
-        for part in ollama.chat(
-            model=self.model_name,
-            messages=[
-                {"role": "system", "content": DECOMPOSE_PROMPT},
-                {"role": "user", "content": prompt}],
-            options={
-                "temperature": 0.0,
-                "min_p": 0.0,
-                "num_ctx": 8192
-            },
-            think=True,
-            format=MultiQuery.model_json_schema(),
-            stream=True
-        ):
-            # print(part['message']['content'], end='', flush=True)
-            response += part['message']['content']
-        # remove the first character if it is a {
-        if response.startswith('{'):
-            response = response[1:]
-        
-        return json.loads(response)
             
     def generate_content_multi_query(self, prompt):
         # Use the Multi Query technique to generate content

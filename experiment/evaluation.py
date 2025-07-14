@@ -213,13 +213,13 @@ if __name__ == "__main__":
     
     # Define the experiment strategies
     STRATEGIES = [
-        #"source-default", # F-R
-        #"source-multiquery", # F-R
-        "nosource-default", # F-R
-        #"nosource-multiquery", # F-R
-        #"source-multiquery-extraction", # F-R
-        #"source-default-extraction", # F-R
-        #"nosource-default-extraction", # F-R
+        "source-default",
+        "nosource-default",
+        #"source-multiquery",
+        #"nosource-multiquery",
+        #"source-multiquery-extraction",
+        #"source-default-extraction",
+        #"nosource-default-extraction",
         #"graphrag"
     ]
     
@@ -241,6 +241,9 @@ if __name__ == "__main__":
     # Set output filenames based on strategy if not specified
     output_prefix = args.output if args.output else f"results_{args.strategy}"
     
+    retrieval_eval = RetrievalEval(model=args.model, index_file=args.index, triples_file=args.triples)
+    generation_eval = GenerationEval(model=args.model, index_file=args.index, triples_file=args.triples)
+    
     # Parse strategy components
     use_source = args.strategy.startswith("source")
     extraction = "extraction" in args.strategy
@@ -256,110 +259,65 @@ if __name__ == "__main__":
         retrieval_strategy = "default"
     elif "graphrag" in args.strategy:
         retrieval_strategy = "graphrag"
+        retrieval_eval.entities_file = args.entities_file
+        retrieval_eval.entities_index = args.entities_index
+        generation_eval.entities_file = args.entities_file
+        generation_eval.entities_index = args.entities_index
     
-    # print(f"Running experiment with strategy: {args.strategy}")
-    # print(f"- Use source: {use_source}")
-    # print(f"- Extraction: {extraction}")
-    # print(f"- Retrieval strategy: {retrieval_strategy}")
+    print(f"Running experiment with strategy: {args.strategy}")
+    print(f"- Use source: {use_source}")
+    print(f"- Extraction: {extraction}")
+    print(f"- Retrieval strategy: {retrieval_strategy}")
     
     # Load the dataset
     with open("gold_dataset/EmPULIA-QA.json", "r", encoding="utf-8") as f:
         dataset = json.load(f)
-    retrieval_eval = RetrievalEval(model=args.model, index_file=args.index, triples_file=args.triples)
-    generation_eval = GenerationEval(model=args.model, index_file=args.index, triples_file=args.triples)
     
-    # Initialize evaluators with command-line arguments
-    # for strategy in tqdm(STRATEGIES, desc="Running strategies"):
-    #     # Set output filenames based on strategy if not specified
-    #     output_prefix = args.output if args.output else f"results_{strategy}"
-        
-    #     output_filename = f"results/{output_prefix}.json"
-        
-    #     if "nosource" in strategy:
-    #         args.index = "gold_embedding/EMB_withoutSource.index"
-    #         retrieval_eval = RetrievalEval(model=args.model, index_file=args.index, triples_file=args.triples)
-    #         generation_eval = GenerationEval(model=args.model, index_file=args.index, triples_file=args.triples)
-    #     elif "source" in strategy:
-    #         args.index = "gold_embedding/EMB_withSource.index"
-    #         retrieval_eval = RetrievalEval(model=args.model, index_file=args.index, triples_file=args.triples)
-    #         generation_eval = GenerationEval(model=args.model, index_file=args.index, triples_file=args.triples)
-    #     elif "graphrag" in strategy:
-    #         args.entities_file = "gold_embedding/EMB_entities.index"
-    #         args.entities_index = "docs_kg/aggregated_knowledge_graph.json"
-        
-    #         retrieval_eval = RetrievalEval(model=args.model, index_file=args.index, triples_file=args.triples, entities_file=args.entities_file, entities_index=args.entities_index)
-    #         generation_eval = GenerationEval(model=args.model, index_file=args.index, triples_file=args.triples, entities_file=args.entities_file, entities_index=args.entities_index)
-        
-    #     if "extraction" in strategy:
-    #     # nosource-default-extraction => "default-extraction"
-    #     # source-multiquery-extraction => "multiquery-extraction"
-    #         retrieval_strategy = strategy.split("-")[1] + "-extraction"
-    #     elif "multiquery" in strategy:
-    #         retrieval_strategy = "multiquery"
-    #     elif "decomposition" in strategy:
-    #         retrieval_strategy = "decomposition"
-    #     elif "default" in strategy:
-    #         retrieval_strategy = "default"
-    #     elif "graphrag" in strategy:
-    #         retrieval_strategy = "graphrag"
-        
-        
-    #     print(f"Running experiment with strategy: {strategy}")
-    #     print(f"- Use source: {use_source}")
-    #     print(f"- Extraction: {extraction}")
-    #     print(f"- Retrieval strategy: {retrieval_strategy}")
-        
-    #     if os.path.exists(output_filename):
-    #         print(f"Resuming from existing results file: {output_filename}")
-    #         with open(output_filename, "r", encoding="utf-8") as f:
-    #             results = json.load(f)
-    #     else:
-    #         results = {
-    #             "1_hop": [],
-    #             "2_hop": [],
-    #             "isolated": [],
-    #             "hubs": [],
-    #             "totalmente_fuori_contesto": []
-    #         }
+    if os.path.exists(f"results/{output_prefix}.json"):
+        print(f"Resuming from existing results file: {output_prefix}.json")
+        with open(f"results/{output_prefix}.json", "r", encoding="utf-8") as f:
+            results = json.load(f)
+    else:
+        results = {
+            "1_hop": [],
+            "2_hop": [],
+            "isolated": [],
+            "hubs": [],
+            "totalmente_fuori_contesto": []
+        }
 
-    #     processed_ids = set()
-    #     for diff_list in results.values():
-    #         for res in diff_list:
-    #             processed_ids.add(res["id"])
+    ## GENERATION
+    processed_ids = set()
+    for diff_list in results.values():
+        for res in diff_list:
+            processed_ids.add(res["id"])
 
-    #     for i, item in enumerate(tqdm(dataset, desc="Processing dataset items")):
-    #         if i in processed_ids:
-    #             print(f"Item {i} already processed. Skipping...")
-    #             continue
+    for i, item in enumerate(tqdm(dataset, desc="Processing dataset items")):
+        if i in processed_ids:
+            print(f"Item {i} already processed. Skipping...")
+            continue
 
-    #         query = item["question"]
-            
-    #         generation_results, context = generation_eval.generate(query, strategy=retrieval_strategy)
-            
-    #         # context is a list of triples in bullet points (-)
-    #         # e.g., "- subject predicate object (Fonte: source) - subject predicate object (Fonte: source)"
-    #         if not context:
-    #             context = []
-    #         else:
-    #             context = context.split("\n")
-    #             context = [c[2:] for c in context]
-    #             # replace (Fonte:with -, then the final character is removed
-    #             context = [c.replace("(Fonte:", "-")[:-1] for c in context if c.strip()]
-                
-    #         results[item["difficulty"]].append({
-    #             "id": i,
-    #             "query": query,
-    #             "retrieval": context,
-    #             "generation": generation_results
-    #         })
-            
-    #         # Save the results with strategy in filenames
-    #         with open(output_filename, "w", encoding="utf-8") as f:
-    #             json.dump(results, f, indent=4, ensure_ascii=False)
+        query = item["question"]
         
-    #     del retrieval_eval
-    #     del generation_eval
-    #     gc.collect()
+        generation_results, context = generation_eval.generate(query, strategy=retrieval_strategy)
+        
+        if not context:
+            context = []
+        else:
+            context = context.split("\n")
+            context = [c[2:] for c in context]
+            context = [c.replace("(Fonte:", "-")[:-1] for c in context if c.strip()]
+            
+        results[item["difficulty"]].append({
+            "id": i,
+            "query": query,
+            "retrieval": context,
+            "generation": generation_results
+        })
+        
+        # Save the results with strategy in filenames
+        with open(f"results/{output_prefix}.json", "w", encoding="utf-8") as f:
+            json.dump(results, f, indent=4, ensure_ascii=False)
     
     ## EVALUATION
     with open(f"results/{output_prefix}.json", "r", encoding="utf-8") as f:

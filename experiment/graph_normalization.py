@@ -18,9 +18,8 @@ class Entities(BaseModel):
 class Normalizer:
     def __init__(self, model_name='Qwen/Qwen3-Embedding-0.6B', eps=0.05):
         """
-        Inizializza il normalizzatore.
-        - model_name: Nome del modello da Hugging Face (es. "Qwen/Qwen3-Embedding-4B").
-        - eps: Soglia per DBSCAN.
+        - model_name: Model name from Hugging Face (e.g. "Qwen/Qwen3-Embedding-4B").
+        - eps: DBSCAN epsilon.
         """
         
         self.model = SentenceTransformer(model_name)
@@ -47,30 +46,27 @@ class Normalizer:
         Calcola la matrice delle distanze pairwise per DBSCAN.
         La distanza usata è 1 - cosine_similarity.
         """
-        # Calcola la similarità cosenica tra tutti gli embedding in modo efficiente
         similarity_matrix = util.cos_sim(embeddings, embeddings).numpy()
         
-        # La distanza è 1 - similarità
         distance_matrix = 1 - similarity_matrix
 
-        # Assicura che non ci siano valori negativi dovuti a imprecisioni numeriche
         np.clip(distance_matrix, 0, None, out=distance_matrix)
 
         return distance_matrix 
 
     def initialize(self, initial_vocabulary):
         """
-        FASE 1: Esegue il clustering iniziale su un vocabolario.
-        - initial_vocabulary: una lista di parole/nodi unici.
+        Step 1: Perform initial clustering on a vocabulary.
+        - initial_vocabulary: a list of unique words/nodes.
         """
-        print(f"Inizializzazione con un vocabolario di {len(initial_vocabulary)} parole.")
-        
+        print(f"Initialization with a vocabulary of {len(initial_vocabulary)} words.")
+
         valid_words = [word for word in initial_vocabulary if self._get_embedding(word) is not None]
         embeddings = np.array([self._get_embedding(word) for word in valid_words])
 
         dbscan = DBSCAN(metric='precomputed', eps=self.eps, min_samples=2, n_jobs=-1).fit(self._compute_distance_matrix(embeddings))
 
-        # Popola lo stato iniziale
+        # Initial clustering results
         unique_labels = set(dbscan.labels_)
         for label in unique_labels:
             indices = np.where(dbscan.labels_ == label)[0]
@@ -100,19 +96,19 @@ class Normalizer:
 
     def normalize(self, new_word):
         """
-        FASE 2: Normalizza una nuova parola usando la logica online.
+        Step 2: Normalize a new word.
         """
-        # 1. Controllo cache
+        # 1. Cache
         if new_word in self.normalization_map:
             return self.normalization_map[new_word]
 
-        # 2. Generazione embedding
+        # 2. Embedding generation
         new_embedding = self._get_embedding(new_word)
         if new_embedding is None:
             self.normalization_map[new_word] = new_word
             return new_word
 
-        # 3. Matching con cluster esistenti
+        # 3. Matching with existing clusters
         if self.centroids:
             max_sim = -1
             best_cluster = None
@@ -128,21 +124,20 @@ class Normalizer:
                 # Opzionale: aggiornare il centroide
                 return representative
 
-        # 4. Matching con parole isolate (rumore)
+        # 4. Noise word handling
         if len(self.noise_words) > 0:
-            # Calcola similarità con ogni parola rumore
+            # Cosim for each noise word
             for i, noise_word in enumerate(self.noise_words):
                 sim = util.cos_sim(new_embedding.reshape(1, -1), self.noise_embeddings[i].reshape(1, -1)).item()
                 if sim > 1 - self.eps:  # Soglia per considerare simile
-                    # Se trova una parola rumore simile, aggiorna la normalization_map
+                    # If noise word is similar, replace it
                     self.normalization_map[new_word] = noise_word
-                    # Rimuove la parola rumore dalla lista
+                    # Remove the noise word from the list
                     self.noise_words.pop(i)
                     self.noise_embeddings = np.delete(self.noise_embeddings, i, axis=0)
-                    # print(f"Parola '{new_word}' normalizzata a '{noise_word}'.")
                     return noise_word
 
-        # 5. Classificazione come nuovo rumore
+        # 5. New noise classification
         self.noise_words.append(new_word)
         if len(self.noise_embeddings) == 0:
             self.noise_embeddings = new_embedding.reshape(1, -1)
@@ -153,7 +148,6 @@ class Normalizer:
         return new_word
     
     def save_state(self, filepath):
-        """Salva lo stato corrente del normalizzatore su file."""
         state = {
             "centroids": self.centroids,
             "representatives": self.representatives,
@@ -165,10 +159,9 @@ class Normalizer:
         }
         with open(filepath, 'wb') as f:
             pickle.dump(state, f)
-        print(f"Stato salvato in {filepath}")
+        print(f"State saved to {filepath}")
 
     def load_state(self, filepath):
-        """Carica uno stato precedentemente salvato."""
         with open(filepath, 'rb') as f:
             state = pickle.load(f)
         
@@ -179,10 +172,9 @@ class Normalizer:
         self.noise_words = state["noise_words"]
         self.next_cluster_id = state["next_cluster_id"]
         self.eps = state["eps"]
-        print(f"Stato caricato da {filepath}")
+        print(f"State loaded from {filepath}")
 
     def view_state(self):
-        """Visualizza lo stato corrente del normalizzatore."""
         print(f"Centroids: {self.centroids}")
         print(f"Representatives: {self.representatives}")
         print(f"Normalization Map: {self.normalization_map}")
@@ -192,7 +184,6 @@ class Normalizer:
     
 # --- ESEMPIO DI UTILIZZO ---
 
-# Imposta il percorso del tuo modello
 model_name = 'Qwen/Qwen3-Embedding-0.6B'
 
 # 1. Loading the graph
@@ -219,6 +210,7 @@ print(f"Total relations before normalization: {len(graph_dict['relations'])}")
 graph_dict['relations'] = list(set(graph_dict['relations']))  # Remove duplicates
 graph_dict_no_fonte['relations'] = list(set(graph_dict_no_fonte['relations']))  # Remove duplicates
 print(f"Total relations after normalization: {len(graph_dict['relations'])}")
+
 # we explore graph_dict['triples'] and normalize them
 for triple in graph_dict['triples']:
     normalized_relation = relation_normalizer.normalize(triple['relazione'])
